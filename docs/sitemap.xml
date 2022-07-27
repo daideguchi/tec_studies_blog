@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://daideguchi.github.io/tec_study/post/</loc>
+    <lastmod>2022-07-27T21:04:50+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_study/post/my-first-article/</loc>
+    <lastmod>2022-07-27T21:04:50+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_study/</loc>
+    <lastmod>2022-07-27T21:04:50+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_study/categories/</loc>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_study/tags/</loc>
+  </url>
+</urlset>

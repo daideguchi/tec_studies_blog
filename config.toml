@@ -1,4 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://daideguchi.github.io/tec_study/'
 languageCode = 'en-us'
-title = '公務員のテックブログ'
+title = '人生を変えるプログラミング'
 theme = "ananke"
+
+publishDir = "docs"
+
+[Params]
+ subtitle = "学習のアプトプット"
