@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = '公務員のテックブログ'
+theme = "ananke"
