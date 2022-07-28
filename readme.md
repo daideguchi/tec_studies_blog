@@ -1,3 +1,3 @@
 ## ブログ
 
-https://daideguchi.github.io/tec_study/
+https://daideguchi.github.io/tec_studies/

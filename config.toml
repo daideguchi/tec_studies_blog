@@ -1,4 +1,4 @@
-baseURL = 'https://daideguchi.github.io/tec_study/'
+baseURL = 'https://daideguchi.github.io/tec_studies/'
 languageCode = 'en-us'
 title = '人生を変えるプログラミング'
 theme = "ananke"
