@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人生を変えるプログラミング</title>
-    <link>https://daideguchi.github.io/tec_studies/</link>
+    <link>https://daideguchi.github.io/tec_studies_blog/</link>
     <description>Recent content on 人生を変えるプログラミング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jul 2022 22:04:48 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 22:04:48 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>なぜプログラミングなのか</title>
-      <link>https://daideguchi.github.io/tec_studies/post/my-second-article/</link>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/my-second-article/</link>
       <pubDate>Thu, 28 Jul 2022 22:04:48 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies/post/my-second-article/</guid>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/my-second-article/</guid>
       <description>&lt;p&gt;Hugo を使って2日目の記事です。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>はじめての記事</title>
-      <link>https://daideguchi.github.io/tec_studies/post/my-first-article/</link>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/my-first-article/</link>
       <pubDate>Wed, 27 Jul 2022 21:04:50 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies/post/my-first-article/</guid>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/my-first-article/</guid>
       <description>&lt;p&gt;Hugo を使ってはじめての記事です。&lt;/p&gt;</description>
     </item>
     
