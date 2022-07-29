@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/post/</loc>
-    <lastmod>2022-07-28T22:04:48+09:00</lastmod>
+    <loc>https://daideguchi.github.io/tec_studies_blog/post/my-second-third/</loc>
+    <lastmod>2022-07-29T23:14:45+09:00</lastmod>
   </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/post/my-second-article/</loc>
-    <lastmod>2022-07-28T22:04:48+09:00</lastmod>
+    <loc>https://daideguchi.github.io/tec_studies_blog/post/</loc>
+    <lastmod>2022-07-29T23:14:45+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/</loc>
+    <lastmod>2022-07-29T23:14:45+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/post/my-second-article/</loc>
     <lastmod>2022-07-28T22:04:48+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/post/my-first-article/</loc>
