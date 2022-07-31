@@ -2,10 +2,14 @@
 title: "なぜプログラミングなのか"
 date: 2022-07-28T22:04:48+09:00
 draft: false
+categories:
+  - "その他"
+tags:
+  - "why me"
 ---
 
 
-Hugo を使って2日目の記事です。
+Hugo を使って2日目の記事です。（練習用）
 
 <!--more-->
 

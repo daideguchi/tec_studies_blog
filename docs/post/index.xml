@@ -14,7 +14,7 @@
       
       <guid>https://daideguchi.github.io/tec_studies_blog/post/my-third-article/</guid>
       <description>&lt;p&gt;Hugo を使って3日目の記事です。&lt;br&gt;
-ビジネスについて&lt;/p&gt;</description>
+ビジネスについて（練習用）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@
       <pubDate>Thu, 28 Jul 2022 22:04:48 +0900</pubDate>
       
       <guid>https://daideguchi.github.io/tec_studies_blog/post/my-second-article/</guid>
-      <description>&lt;p&gt;Hugo を使って2日目の記事です。&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hugo を使って2日目の記事です。（練習用）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@
       <pubDate>Wed, 27 Jul 2022 21:04:50 +0900</pubDate>
       
       <guid>https://daideguchi.github.io/tec_studies_blog/post/my-first-article/</guid>
-      <description>&lt;p&gt;Hugo を使ってはじめての記事です。&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hugo を使ってはじめての記事です。（練習用）&lt;/p&gt;</description>
     </item>
     
   </channel>
