@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Test"
+date: 2022-07-31T13:05:54+09:00
 draft: true
 categories:
   - "学習アウトプット"
@@ -9,3 +9,5 @@ tags:
   - "プログラミング"
   - "ビジネス"
 ---
+
+あああ
