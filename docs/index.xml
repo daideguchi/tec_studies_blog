@@ -13,8 +13,9 @@
       <pubDate>Sun, 31 Jul 2022 22:50:38 +0900</pubDate>
       
       <guid>https://daideguchi.github.io/tec_studies_blog/post/04_web3_article1/</guid>
-      <description>&lt;p&gt;web3について
-web3に興味を持った経緯&lt;/p&gt;</description>
+      <description>&lt;p&gt;web3について&lt;br&gt;
+web3に興味を持った経緯&lt;br&gt;
+少し小難しい話&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -25,16 +26,6 @@ web3に興味を持った経緯&lt;/p&gt;</description>
       <guid>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</guid>
       <description>&lt;p&gt;【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する&lt;br&gt;
 プログラミングを学びながらブログを運営できる&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/test/</link>
-      <pubDate>Sun, 31 Jul 2022 13:05:54 +0900</pubDate>
-      
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/test/</guid>
-      <description>あああ
-$ brew install hugo # or $ port install hugo </description>
     </item>
     
     <item>
@@ -63,15 +54,6 @@ $ brew install hugo # or $ port install hugo </description>
       
       <guid>https://daideguchi.github.io/tec_studies_blog/post/01_my-first-article/</guid>
       <description>&lt;p&gt;Hugo を使ってはじめての記事です。（練習用）&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/posts/my-first-post/</link>
-      <pubDate>Wed, 27 Jul 2022 20:56:31 +0900</pubDate>
-      
-      <guid>https://daideguchi.github.io/tec_studies_blog/posts/my-first-post/</guid>
-      <description></description>
     </item>
     
     <item>
