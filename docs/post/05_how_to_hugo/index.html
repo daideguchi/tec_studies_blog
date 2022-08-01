@@ -124,7 +124,7 @@ if (!doNotTrack) {
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<p>【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する
+			<p>【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する<br>
 プログラミングを学びながらブログを運営できる</p>
 <hr>
 <!-- raw HTML omitted -->
@@ -175,7 +175,7 @@ if (!doNotTrack) {
 <hr>
 <h3 id="30_サイト構築の手順">3.0_サイト構築の手順</h3>
 <hr>
-<p>まずは公式サイトに沿って、簡単なサイトを作ってみましょう。
+<p>まずは公式サイトに沿って、簡単なサイトを作ってみましょう。<br>
 <a href="https://gohugo.io/">公式サイト-&gt;Hugo</a></p>
 <p>以下のコマンドをターミナルで実行します。(冒頭の$は入力しません)</p>
 <h4 id="1hugoのパッケージをインストールする">1.hugoのパッケージをインストールする</h4>
@@ -183,7 +183,7 @@ if (!doNotTrack) {
   or
 $ port install hugo
 </code></pre><h4 id="2サイトを構築する">2.サイトを構築する</h4>
-<p>以下コマンドで、現在のディレクトリにファイルが生成されます。
+<p>以下コマンドで、現在のディレクトリにファイルが生成されます。<br>
 「quickstart」となっているところはファイルの名称なので、任意で大丈夫です。</p>
 <pre tabindex="0"><code>$ hugo new site quickstart
 </code></pre><p>ファイルが作成されます。<br>
@@ -200,18 +200,18 @@ $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git the
 <p>とりあえず、サイトの最低限の体裁は整ったので、記事を一つ追加してみましょう。<br>
 なお、手動で<code>content/post</code>内に、フォルダを作成しても大丈夫です。</p>
 <pre tabindex="0"><code>$ hugo new posts/my-first-post.md
-</code></pre><p>上記を実行すると、<code>content/post</code>にmy-first-post.mdという名前のマークダウンのファイルが作成されています。<br>
+</code></pre><p>上記を実行すると、<code>content/post</code>に<code>my-first-post.md</code>という名前のマークダウンのファイルが作成されています。<br>
 もちろんファイルの名前も自分の好みでオッケーです。<br>
 ちなみに今回はマークダウン(.md)でファイルを作成しましたが、マークアップ言語であるHTMLファイルも作成することができます。<br>
 自分の書きやすい記述方法で良いかと思います。</p>
 <h4 id="5コンテンツを確認する">5.コンテンツを確認する</h4>
-<p>作成されたファイルを確認すると、</p>
+<p>作成されたファイル<code>my-first-post.md</code>を確認すると、以下のような内容になっています。</p>
 <div class="highlight light line-number copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">---</span>
 </span></span><span style="display:flex;"><span>title: <span style="color:#e6db74">&#34;My First Post&#34;</span>
 </span></span><span style="display:flex;"><span>date: 2019<span style="color:#f92672">-</span>03<span style="color:#f92672">-</span>26T08<span style="color:#f92672">:</span>47<span style="color:#f92672">:</span>11<span style="color:#f92672">+</span>01<span style="color:#f92672">:</span>00
 </span></span><span style="display:flex;"><span>draft: <span style="color:#66d9ef">true</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">---</span>
-</span></span></code></pre></div><p>上記のような記述がでデフォルトで表示されています。</p>
+</span></span></code></pre></div><p>上記のような記述がでデフォルトで表示されます。（設定で変更可能）</p>
 <ul>
 <li>title: 記事のタイトル</li>
 <li>date: 記事を作成したタイムスタンプ</li>
