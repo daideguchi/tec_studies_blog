@@ -11,3 +11,9 @@ tags:
 ---
 
 あああ
+
+```java Hello.java {.light .line-number .copy}
+$ brew install hugo
+# or
+$ port install hugo
+```

@@ -9,39 +9,49 @@
     <lastBuildDate>Sun, 31 Jul 2022 22:50:38 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>web3に興味を持った経緯</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/web3_article1/</link>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/04_web3_article1/</link>
       <pubDate>Sun, 31 Jul 2022 22:50:38 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/web3_article1/</guid>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/04_web3_article1/</guid>
       <description>&lt;p&gt;web3について
 web3に興味を持った経緯&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>静的サイトジェネレータ Hugo で無料ブログサイトを作る</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</link>
+      <pubDate>Sun, 31 Jul 2022 22:50:11 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</guid>
+      <description>&lt;p&gt;【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する
+プログラミングを学びながらブログを運営できる&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>まずは小さな一歩で良い</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/my-third-article/</link>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/03_my-third-article/</link>
       <pubDate>Fri, 29 Jul 2022 23:14:45 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/my-third-article/</guid>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/03_my-third-article/</guid>
       <description>&lt;p&gt;Hugo を使って3日目の記事です。&lt;br&gt;
 ビジネスについて（練習用）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>なぜプログラミングなのか</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/my-second-article/</link>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/02_my-second-article/</link>
       <pubDate>Thu, 28 Jul 2022 22:04:48 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/my-second-article/</guid>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/02_my-second-article/</guid>
       <description>&lt;p&gt;Hugo を使って2日目の記事です。（練習用）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>はじめての記事</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/my-first-article/</link>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/01_my-first-article/</link>
       <pubDate>Wed, 27 Jul 2022 21:04:50 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/my-first-article/</guid>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/01_my-first-article/</guid>
       <description>&lt;p&gt;Hugo を使ってはじめての記事です。（練習用）&lt;/p&gt;</description>
     </item>
     

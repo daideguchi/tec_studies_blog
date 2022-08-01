@@ -1,4 +1,4 @@
- baseurl = "https://daideguchi.github.io/tec_studies_blog/"
+baseurl = "https://daideguchi.github.io/tec_studies_blog/"
 title = "人生を変えるプログラミング"
 DefaultContentLanguage = "ja"
 languageCode = "ja-JP"
