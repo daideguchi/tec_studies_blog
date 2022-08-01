@@ -95,7 +95,9 @@ $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git the
 $ hugo new posts/my-first-post.md
 ```
 上記を実行すると、```content/post```にmy-first-post.mdという名前のマークダウンのファイルが作成されています。  
-もちろんファイルの名前も自分の好みでオッケーです。
+もちろんファイルの名前も自分の好みでオッケーです。  
+ちなみに今回はマークダウン(.md)でファイルを作成しましたが、マークアップ言語であるHTMLファイルも作成することができます。  
+自分の書きやすい記述方法で良いかと思います。
 
 #### 5.コンテンツを確認する
 作成されたファイルを確認すると、
