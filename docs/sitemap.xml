@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/post/08_hugo_img/</loc>
+    <lastmod>2022-08-02T20:50:32+09:00</lastmod>
+  </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/categories/</loc>
     <lastmod>2022-08-02T20:50:32+09:00</lastmod>
   </url><url>
@@ -9,9 +12,6 @@
     <lastmod>2022-08-02T20:50:32+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/categories/hugo/</loc>
-    <lastmod>2022-08-02T20:50:32+09:00</lastmod>
-  </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/post/08_hugo_img/</loc>
     <lastmod>2022-08-02T20:50:32+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/post/</loc>

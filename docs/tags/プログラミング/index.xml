@@ -8,7 +8,7 @@
     <language>ja-JP</language>
     <lastBuildDate>Tue, 02 Aug 2022 20:50:32 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo で構築したサイトの記事に画像を挿入する</title>
+      <title>【Hugo】構築したサイトの記事に画像を挿入する</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/08_hugo_img/</link>
       <pubDate>Tue, 02 Aug 2022 20:50:32 +0900</pubDate>
       
@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>静的サイトジェネレータ Hugo で無料ブログサイトを作る</title>
+      <title>【Hugo】静的サイトジェネレータで無料ブログサイトを作る</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</link>
       <pubDate>Sun, 31 Jul 2022 22:51:11 +0900</pubDate>
       
