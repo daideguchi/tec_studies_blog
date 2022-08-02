@@ -1,5 +1,5 @@
 ---
-title: "Hugo で構築したサイトの記事に画像を挿入する"
+title: "【Hugo】構築したサイトの記事に画像を挿入する"
 date: 2022-08-02T20:50:32+09:00
 draft: false
 categories:

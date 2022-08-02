@@ -1,5 +1,5 @@
 ---
-title: "静的サイトジェネレータ Hugo で無料ブログサイトを作る"
+title: "【Hugo】静的サイトジェネレータで無料ブログサイトを作る"
 date: 2022-07-31T22:51:11+09:00
 draft: false
 categories:

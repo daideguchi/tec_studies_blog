@@ -9,7 +9,7 @@ googleAnalytics = "G-XVELW3Y8H3" # Enable Google Analytics by entering your trac
 
 [Author] # Used in authorbox
   name = "Dai"
-  bio = "本サイトの管理人です。好きなキャラクターはジャックです。"
+  bio = "本サイトの管理人です。好きなキャラクターはベチゾー（PHPのゾウさん）です。"
   avatar = "./img/profile.PNG"
 
 [Params]
@@ -42,7 +42,7 @@ googleAnalytics = "G-XVELW3Y8H3" # Enable Google Analytics by entering your trac
   home = "right" # Configure layout for home page
   list = "right"  # Configure layout for list pages
   single = "right" # Configure layout for single pages
-  # Enable widgets in given order
+ # Enable widgets in given order
   widgets = ["search", "profile", "recent", "categories", "taglist", "social"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
   # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
@@ -61,10 +61,10 @@ googleAnalytics = "G-XVELW3Y8H3" # Enable Google Analytics by entering your trac
    github = "daideguchi"
 #   gitlab = "username"
 #   bitbucket = "username"
-#   email = "m.pokemori@gmail.com"
+#   email = "dd.1107.11107@gmail.com"
 
 [[Params.widgets.social.custom]]
-  title = "個人ブログ"
+  title = "個人ブログ(未実装)"
   url = ""
 
 [[Menus.main]]
