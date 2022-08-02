@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on 人生を変えるプログラミング</title>
-    <link>https://daideguchi.github.io/tec_studies_blog/categories/hugo/</link>
-    <description>Recent content in Hugo on 人生を変えるプログラミング</description>
+    <title>技術 on 人生を変えるプログラミング</title>
+    <link>https://daideguchi.github.io/tec_studies_blog/categories/%E6%8A%80%E8%A1%93/</link>
+    <description>Recent content in 技術 on 人生を変えるプログラミング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 02 Aug 2022 20:50:32 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 20:50:32 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo で構築したサイトの記事に画像を挿入する</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/08_hugo_img/</link>
@@ -25,16 +25,6 @@ mainroad公式のGithub
 -&amp;gt; 手順2.ディレクトリの確認 ── archetypes ├── config.toml ├── content │ └── post │ └── hogehoge.md //ここを編集中 ├── data ├── docs ├── img ├── layouts ├── public ├── readme.md ├── resources ├── static │ └── img │ └── test.jpg //ここに画像のファイルがある └── themes └── mainroad -&amp;gt; 手順3.記事に画像を埋め込むコードを記述 例えば、現在編集しているファイルがhogehoge.mdの場合は、２階層戻って、staticにアクセスするのですが、パスの指定にstaticの記述は不要です。
 そのため、以下のような記述になります。
 ![海のフリー画像](../../test.jpg) 無事、画像を表示することができました。</description>
-    </item>
-    
-    <item>
-      <title>静的サイトジェネレータ Hugo で無料ブログサイトを作る</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</link>
-      <pubDate>Sun, 31 Jul 2022 22:51:11 +0900</pubDate>
-      
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</guid>
-      <description>&lt;p&gt;【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する&lt;br&gt;
-プログラミングを学びながらブログを運営できる&lt;/p&gt;</description>
     </item>
     
   </channel>

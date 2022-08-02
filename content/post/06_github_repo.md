@@ -1,7 +1,7 @@
 ---
-title: "Github pages でサイトを無料で公開"
+title: "Githubに作ったコードを登録する"
 date: 2022-08-02T08:44:45+09:00
-draft: false
+draft: true
 categories:
   - "学習アウトプット"
   - "Github"
@@ -27,4 +27,4 @@ vsコードなどのエディタでブログラムを作成したら、その成
 ## 2.0_
 ***
 
-![Github](https://drive.google.com/file/d/1S1-O2KJck66K1Nl3TJNJOmTfwUUOti7D/view)
+![Github](../../img/github.png)

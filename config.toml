@@ -34,7 +34,7 @@ googleAnalytics = "UA-XXXXXXXXX-X" # Enable Google Analytics by entering your tr
 #   customJS = ["js/custom.js"] # Include custom JS files
 
 [Params.logo]
-#   image = "img/profile.PNG" # Logo image. Path relative to "static"
+#  image = "img/aprofile.PNG" # Logo image. Path relative to "static"
   title = "人生を変えるプログラミング" # Logo title, otherwise will use site title
   subtitle = "学習のアプトプット" # Logo subtitle
 
