@@ -1,7 +1,7 @@
 ---
 title: "Githubに作ったコードを登録する"
 date: 2022-08-02T08:44:45+09:00
-draft: true
+draft: false
 categories:
   - "学習アウトプット"
   - "Github"
