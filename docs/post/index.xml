@@ -6,7 +6,26 @@
     <description>Recent content in Posts on 人生を変えるプログラミング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 31 Jul 2022 22:50:38 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 08:44:45 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github pages でサイトを無料で公開</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/06_how_to_gitdeploy/</link>
+      <pubDate>Tue, 02 Aug 2022 08:44:45 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/06_how_to_gitdeploy/</guid>
+      <description>&lt;p&gt;Githubでページを公開する&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>静的サイトジェネレータ Hugo で無料ブログサイトを作る</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</link>
+      <pubDate>Sun, 31 Jul 2022 22:51:11 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</guid>
+      <description>&lt;p&gt;【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する&lt;br&gt;
+プログラミングを学びながらブログを運営できる&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>web3に興味を持った経緯</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/04_web3_article1/</link>
@@ -14,18 +33,7 @@
       
       <guid>https://daideguchi.github.io/tec_studies_blog/post/04_web3_article1/</guid>
       <description>&lt;p&gt;web3について&lt;br&gt;
-web3に興味を持った経緯&lt;br&gt;
 少し小難しい話&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>静的サイトジェネレータ Hugo で無料ブログサイトを作る</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</link>
-      <pubDate>Sun, 31 Jul 2022 22:50:11 +0900</pubDate>
-      
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</guid>
-      <description>&lt;p&gt;【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する&lt;br&gt;
-プログラミングを学びながらブログを運営できる&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -1,6 +1,6 @@
 ---
 title: "静的サイトジェネレータ Hugo で無料ブログサイトを作る"
-date: 2022-07-31T22:50:11+09:00
+date: 2022-07-31T22:51:11+09:00
 draft: false
 categories:
   - "学習アウトプット"
@@ -92,12 +92,10 @@ $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git the
 とりあえず、サイトの最低限の体裁は整ったので、記事を一つ追加してみましょう。  
 なお、手動で```content/post```内に、フォルダを作成しても大丈夫です。
 ```
-$ hugo new posts/my-first-post.md
+$ hugo new post/my-first-post.md
 ```
 上記を実行すると、```content/post```に``my-first-post.md``という名前のマークダウンのファイルが作成されています。  
 もちろんファイルの名前も自分の好みでオッケーです。  
-ちなみに今回はマークダウン(.md)でファイルを作成しましたが、マークアップ言語であるHTMLファイルも作成することができます。  
-自分の書きやすい記述方法で良いかと思います。
 
 #### 5.コンテンツを確認する
 作成されたファイル``my-first-post.md``を確認すると、以下のような内容になっています。
