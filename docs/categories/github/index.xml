@@ -8,12 +8,12 @@
     <language>ja-JP</language>
     <lastBuildDate>Wed, 03 Aug 2022 08:44:45 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【Github】作ったコードを登録する</title>
+      <title>【Github】作ったソースコードを保管する</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/06_github_repo/</link>
       <pubDate>Wed, 03 Aug 2022 08:44:45 +0900</pubDate>
       
       <guid>https://daideguchi.github.io/tec_studies_blog/post/06_github_repo/</guid>
-      <description>&lt;p&gt;Githubでページを公開する&lt;/p&gt;</description>
+      <description>&lt;p&gt;Githubにソースコードを保管するまでの最低限の流れを解説します。&lt;/p&gt;</description>
     </item>
     
   </channel>
