@@ -1,5 +1,5 @@
 ---
-title: "Githubに作ったコードを登録する"
+title: "【Github】作ったコードを登録する"
 date: 2022-08-03T08:44:45+09:00
 draft: false
 categories:
