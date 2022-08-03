@@ -6,22 +6,31 @@
     <description>Recent content in Categories on 人生を変えるプログラミング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 02 Aug 2022 20:50:32 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Aug 2022 08:44:45 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/categories/hugo/</link>
-      <pubDate>Tue, 02 Aug 2022 20:50:32 +0900</pubDate>
+      <title>Github</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/categories/github/</link>
+      <pubDate>Wed, 03 Aug 2022 08:44:45 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/categories/hugo/</guid>
+      <guid>https://daideguchi.github.io/tec_studies_blog/categories/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>学習アウトプット</title>
       <link>https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/</link>
-      <pubDate>Tue, 02 Aug 2022 20:50:32 +0900</pubDate>
+      <pubDate>Wed, 03 Aug 2022 08:44:45 +0900</pubDate>
       
       <guid>https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/categories/hugo/</link>
+      <pubDate>Tue, 02 Aug 2022 20:50:32 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/categories/hugo/</guid>
       <description></description>
     </item>
     

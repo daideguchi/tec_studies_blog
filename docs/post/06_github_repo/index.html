@@ -11,14 +11,14 @@
 <meta property="og:description" content="Githubでページを公開する" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://daideguchi.github.io/tec_studies_blog/post/06_github_repo/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-08-02T08:44:45+09:00" />
-<meta property="article:modified_time" content="2022-08-02T08:44:45+09:00" />
+<meta property="article:published_time" content="2022-08-03T08:44:45+09:00" />
+<meta property="article:modified_time" content="2022-08-03T08:44:45+09:00" />
 
 
 		<meta itemprop="name" content="Githubに作ったコードを登録する">
-<meta itemprop="description" content="Githubでページを公開する"><meta itemprop="datePublished" content="2022-08-02T08:44:45+09:00" />
-<meta itemprop="dateModified" content="2022-08-02T08:44:45+09:00" />
-<meta itemprop="wordCount" content="6">
+<meta itemprop="description" content="Githubでページを公開する"><meta itemprop="datePublished" content="2022-08-03T08:44:45+09:00" />
+<meta itemprop="dateModified" content="2022-08-03T08:44:45+09:00" />
+<meta itemprop="wordCount" content="60">
 <meta itemprop="keywords" content="プログラミング,Github,サイト作成,デプロイ," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Githubに作ったコードを登録する"/>
@@ -34,16 +34,16 @@
 
 	<link rel="shortcut icon" href="/tec_studies_blog/favicon.ico">
 		
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XVELW3Y8H3"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXXX-X', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XVELW3Y8H3', { 'anonymize_ip': false });
 }
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 </head>
 <body class="body">
@@ -100,7 +100,7 @@ if (!doNotTrack) {
 			<h1 class="post__title">Githubに作ったコードを登録する</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-02T08:44:45&#43;09:00">2022-08-02</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/" rel="category">学習アウトプット</a>, <a class="meta__link" href="/tec_studies_blog/categories/github/" rel="category">Github</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-03T08:44:45&#43;09:00">2022-08-03</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/" rel="category">学習アウトプット</a>, <a class="meta__link" href="/tec_studies_blog/categories/github/" rel="category">Github</a>
 	</span>
 </div></div>
 		</header>
@@ -111,7 +111,9 @@ if (!doNotTrack) {
 		<nav id="TableOfContents">
   <ul>
     <li><a href="#10_githubとは">1.0_Githubとは</a></li>
-    <li><a href="#20_">2.0_</a></li>
+    <li><a href="#20_githubでリポジトリを作成する">2.0_Githubでリポジトリを作成する</a></li>
+    <li><a href="#30_リポジトリに名前をつける">3.0_リポジトリに名前をつける</a></li>
+    <li><a href="#40_ターミナルでコマンド入力">4.0_ターミナルでコマンド入力</a></li>
   </ul>
 </nav>
 	</div>
@@ -124,9 +126,53 @@ if (!doNotTrack) {
 <a href="https://github.com/">Github公式</a></p>
 <p>vsコードなどのエディタでブログラムを作成したら、その成果としてここに保管しておきましょう。</p>
 <hr>
-<h2 id="20_">2.0_</h2>
+<h2 id="20_githubでリポジトリを作成する">2.0_Githubでリポジトリを作成する</h2>
 <hr>
-<p><img src="../../img/github.png" alt="Github"></p>
+<p>Githubにアクセスして会員登録を済ませましょう。
+<img src="../../img/github.png" alt="Github"></p>
+<hr>
+<p>会員登録が終わったら、ダッシュボードの左側の緑色のボタンから、新しいリポジトリを作成します。<br>
+<img src="../../img/github_ripo.png" alt="Github"></p>
+<hr>
+<h2 id="30_リポジトリに名前をつける">3.0_リポジトリに名前をつける</h2>
+<hr>
+<p>新しいリポジトリが作成されたら、<code>Repository name</code>に任意の名前をつけましょう。</p>
+<hr>
+<p><img src="../../img/git_new.png" alt="Github"></p>
+<hr>
+<p>以下、二つの項目を選択するラジオボタンがありますが、</p>
+<ul>
+<li>リポジトリを公開する場合は、public</li>
+<li>リポジトリを公開しない場合は、private</li>
+</ul>
+<p>どちらかを選びます。</p>
+<hr>
+<h2 id="40_ターミナルでコマンド入力">4.0_ターミナルでコマンド入力</h2>
+<hr>
+<p>新しいリポジトリが作成されるので、あとは作成したコードをアップするフェーズです。<br>
+以下、SSHをコピーしておきます。</p>
+<hr>
+<p><img src="../../img/git_ripossh.png" alt="Github"></p>
+<hr>
+<p>ここまでできたら、ターミナルを起動、もしくはvscodeのターミナルを開き、アップしたいフォルダのディレクトリまで移動しておきます。<br>
+vscodeのターミナルの場合は、自動的にフォルダの階層までデフォルトで移動されています。<br>
+まずは、新しく作成したリポジトリと、アップしたいフォルダが紐付きます。</p>
+<pre tabindex="0"><code>$ git remote add origin 「コピーしたSSH」
+</code></pre><p>次に、Githubにアップロードする準備ファイルを作成します。以下コマンドで、対象フォルダ内に隠しファイルの設定データが格納されます。</p>
+<pre tabindex="0"><code>$ git init
+</code></pre><p>続いて、全てのデータをセットします。ピリオド「<code>.</code>」を打つことで、全てのファイルを対象とすることができます。<br>
+任意のファイルのみアップしたい場合は、ピリオドではなく、任意のファイル名を入力します。</p>
+<pre tabindex="0"><code>$ git add .
+</code></pre><p>次に、アップするデータをコミットします。メッセージを任意で設定します。<br>
+なお、メッセージの設定は必須ですので、忘れないようにしましょう。</p>
+<pre tabindex="0"><code>$ git commit -m &#34;「任意のメッセージ」&#34;
+</code></pre><p>最後に、push（アップロード）します。ブランチという概念があり、「<code>main</code>」か「<code>master</code>」になります。<br>
+ここは個別の環境によっても違いますし、別途設定することもできます。<br>
+うまくいかない場合は、もう一つの方で試してみてください。</p>
+<pre tabindex="0"><code>$ git push origin main もしくは git push origin master
+</code></pre><p>これで一応、最低限のアップロード作業は完了です。<br>
+先ほどのリポジトリのページを更新すると、アップロードが完了しているはずです。<br>
+他にもさまざまなコードがありますが、それはまた別の機会に紹介したい思います。</p>
 		</div>
 		<footer class="post__footer">
 			
@@ -154,15 +200,9 @@ if (!doNotTrack) {
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/tec_studies_blog/post/05_how_to_hugo/" rel="prev">
+		<a class="pager__link" href="/tec_studies_blog/post/08_hugo_img/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;前の投稿</span>
-			<p class="pager__title">静的サイトジェネレータ Hugo で無料ブログサイトを作る</p>
-		</a>
-	</div>
-	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/tec_studies_blog/post/08_hugo_img/" rel="next">
-			<span class="pager__subtitle">次の投稿&thinsp;»</span>
-			<p class="pager__title">Hugo で構築したサイトの記事に画像を挿入する</p>
+			<p class="pager__title">【Hugo】構築したサイトの記事に画像を挿入する</p>
 		</a>
 	</div>
 </nav>
@@ -185,9 +225,9 @@ if (!doNotTrack) {
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/tec_studies_blog/post/08_hugo_img/">Hugo で構築したサイトの記事に画像を挿入する</a></li>
 			<li class="widget__item"><a class="widget__link" href="/tec_studies_blog/post/06_github_repo/">Githubに作ったコードを登録する</a></li>
-			<li class="widget__item"><a class="widget__link" href="/tec_studies_blog/post/05_how_to_hugo/">静的サイトジェネレータ Hugo で無料ブログサイトを作る</a></li>
+			<li class="widget__item"><a class="widget__link" href="/tec_studies_blog/post/08_hugo_img/">【Hugo】構築したサイトの記事に画像を挿入する</a></li>
+			<li class="widget__item"><a class="widget__link" href="/tec_studies_blog/post/05_how_to_hugo/">【Hugo】静的サイトジェネレータで無料ブログサイトを作る</a></li>
 			<li class="widget__item"><a class="widget__link" href="/tec_studies_blog/post/04_web3_article1/">web3に興味を持った経緯</a></li>
 			<li class="widget__item"><a class="widget__link" href="/tec_studies_blog/post/03_my-third-article/">まずは小さな一歩で良い</a></li>
 		</ul>
@@ -245,8 +285,8 @@ if (!doNotTrack) {
 
 		
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="個人ブログ" rel="noopener noreferrer" href="" target="_blank">
-				<span>個人ブログ</span>
+			<a class="widget-social__link widget__link btn" title="個人ブログ(未実装)" rel="noopener noreferrer" href="" target="_blank">
+				<span>個人ブログ(未実装)</span>
 			</a>
 		</div>
 		
