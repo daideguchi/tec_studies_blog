@@ -1,5 +1,5 @@
 baseurl = "https://daideguchi.github.io/tec_studies_blog/"
-title = "人生を変えるプログラミング"
+title = "人生を変えるプログラミング_web3編"
 DefaultContentLanguage = "ja"
 languageCode = "ja-JP"
 paginate = "10" # Number of posts per page
