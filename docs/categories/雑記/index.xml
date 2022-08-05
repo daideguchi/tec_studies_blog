@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>雑記 on 人生を変えるプログラミング_web3編</title>
+    <link>https://daideguchi.github.io/tec_studies_blog/categories/%E9%9B%91%E8%A8%98/</link>
+    <description>Recent content in 雑記 on 人生を変えるプログラミング_web3編</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Fri, 05 Aug 2022 22:29:20 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Help to earn】プロダクト構築に向けて①</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/09_which_lng/</link>
+      <pubDate>Fri, 05 Aug 2022 22:29:20 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/09_which_lng/</guid>
+      <description>&lt;p&gt;今後年間を通して、プロダクトを開発したいと考えています。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

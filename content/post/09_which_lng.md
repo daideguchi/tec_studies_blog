@@ -1,7 +1,7 @@
 ---
 title: "【Help to earn】プロダクト構築に向けて①"
 date: 2022-08-05T22:29:20+09:00
-draft: true
+draft: false
 categories:
   - "web3"
   - "雑記"
