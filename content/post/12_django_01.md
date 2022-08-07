@@ -1,5 +1,5 @@
 ---
-title: "【Django】Pythonフレームワークの環境構築"
+title: "【Django】Pythonフレームワークの環境構築とインストール"
 date: 2022-08-07T22:06:47+09:00
 draft: false
 categories:
