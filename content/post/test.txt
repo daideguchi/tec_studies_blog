@@ -186,26 +186,26 @@ class PostDetailView(generics.RetrieveAPIView):
 
 
 
-            Next.js
-    -------------------------------
-https://nextjs.org/
+                            Next.js
+                    -------------------------------
+                https://nextjs.org/
 
-まずは作業するためのフォルダを作成する。
+                まずは作業するためのフォルダを作成する。
 
-next.jsを利用するには、nodeとnpmが必要になる。
+                next.jsを利用するには、nodeとnpmが必要になる。
 
-インストールされているか確認する
-node -v
-npm -v
+                インストールされているか確認する
+                node -v
+                npm -v
 
-バージョンの情報が表示されればインストールされている。
+                バージョンの情報が表示されればインストールされている。
 
-next.jsのインストールは、以下のコマンド
-※なお、作成するプロジェクト（ファイル名）は大文字は使えない。
-npx create-next-app . --use-npm
+                next.jsのインストールは、以下のコマンド
+                ※なお、作成するプロジェクト（ファイル名）は大文字は使えない。
+                npx create-next-app . --use-npm
 
-サーバーを起動
-npm rum dev
+                サーバーを起動
+                npm rum dev
 
 
 
