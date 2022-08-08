@@ -1,7 +1,7 @@
 ---
 title: "【Tailwind】簡単にcssのコーディングができるツール"
 date: 2022-08-08T22:54:19+09:00
-draft: true
+draft: false
 categories:
   - "学習アウトプット"
   - "フロントエンド"

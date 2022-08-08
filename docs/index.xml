@@ -6,7 +6,16 @@
     <description>Recent content on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 08 Aug 2022 21:32:06 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Aug 2022 22:54:19 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Tailwind】簡単にcssのコーディングができるツール</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/</link>
+      <pubDate>Mon, 08 Aug 2022 22:54:19 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/</guid>
+      <description>&lt;p&gt;巷で話題のCSSツール「Tailwind」を&lt;code&gt;Next.js&lt;/code&gt;に導入した記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【Next.js】強力なフロントエンドのフレームワーク①</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/13_nextjs01/</link>
