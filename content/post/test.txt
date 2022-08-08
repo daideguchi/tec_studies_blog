@@ -1,0 +1,280 @@
+---
+title: "A"
+date: 2022-08-02T00:00:34+09:00
+draft: true
+---
+
+<p>aaa</p>
+<br>
+<h1>aa</h1>
+
+
+
+python3 manage.py startapp app アプリのファイルを作る
+python3 manage.py createsuperuser　管理ユーザーを作成
+ユーザー名 (leave blank to use 'hogehoge'): hogehoge
+メールアドレス: hogehoge@gmail.com
+Password: 
+Password (again): 
+Superuser created successfully.
+パスワードは見えないので、入力に注意すること
+
+アプリケーションを使えるようにするには、プロジェクト設定にアプリケーションを追加する必要がある
+以下に追加する
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'app', #追加
+    'rest_framework', #追加
+    'corsheaders', #追加
+]
+
+corsheadersを有効にするには、MIDDLEWAREに一行追加する
+MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', #追加
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+CORS_ORIGIN_WHITELISTを追加する
+
+# 追加 localhost:3000からのアクセスを許可する
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000",
+]
+
+画像を使用する場合、setting.pyの一番下に、以下を追加する
+
+# 追加
+import os
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+app/models.pyを開く
+# Create your models here.の下にどんなコンテンツか定義する
+今回は投稿形式のもののため、タイトル、本文、画像、作成日のクラスを作る
+
+class Post(models.Model):
+    title = models.CharField('タイトル', max_length=50)
+    image = models.ImageField(upload_to='images', verbose_name='イメージ画像')
+    content = models.TextField('本文')
+    created_at = models.DateTimeField('作成日', auto_now_add=True)
+    
+
+    str関数を設定し、タイトルを返す
+    def __str__(self):
+        return self.title
+
+
+
+
+admin.pyを開いて、管理画面の設定をする
+# Register your models here.以下に記述する
+
+from .models import Post
+
+admin.site.register(Post)
+
+modelsから記事を持ってきて、記事の管理ができるようにする
+
+ここまできたら、データベースの再構築が必要になる
+$ python3  manage.py makemigrations   をターミナルで実行
+% python3 manage.py migrate  をターミナルで実行
+
+サーバーを起動
+$ python3 manage.py runserver   
+
+URLをクリック。URLの末尾に/adminで管理画面に推移
+
+ここから記事の編集ができるようになる。
+
+記事を追加した後
+
+
+
+ーーーーー
+作成したプロジェクト名のファイルからurls.pyを選択
+
+includeと,static,settingsをインポートする
+from django.urls import path, include
+
+from django.conf.urls.static import static
+from django.conf import settings
+
+パスの追加
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/', include('app.urls')),＜ー
+]
+
+デバッグがtrueの時に、画像のアップロードを設定
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+
+
+appフォルダの直下に、urls.pyを作成
+
+urls.py
+ーーーーー
+
+pathとviewをインポートする
+
+from django.urls import path
+from app import views
+
+
+urlpatternsの設定をする
+urlpatterns = [
+#投稿一覧を表示する
+    path('post/', views.PostView.as_view(), name='post'),
+#投稿詳細を表示する
+    path('post/<str:pk>/', views.PostDetailView.as_view(), name='post-detail'),
+]
+
+appフォルダ内にserializers.pyを作成
+serializersとは、クエリセットやモデルインスタンスのような複雑なデータ形式をjson形式に変換してくれるもの
+以下の記述で、ModelSerializerを継承することで、より簡単な記述で実装できるようになる。
+ created_atは見やすい形式に変換している
+
+class PostSerializer(serializers.ModelSerializer):
+    created_at = serializers.DateTimeField(format="%Y-%m-%d %H:%M")
+
+
+メタデータの設定をする
+class Meta:
+    model = Post
+    fields = ('id', 'title', 'image', 'content', 'created_at')
+    
+
+views.pyを開く
+-----
+genericsをインポートする。
+genericsは、一般的に必要な開発コードを用意してくれている。
+そのgenericsを継承することで、簡単に開発ができる。
+classを指定し、継承させる
+
+from rest_framework import generics
+from .serializers import PostSerializer
+from .models import Post
+
+
+#投稿データを取得
+class PostView(generics.ListAPIView):
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer
+
+#投稿の詳細を取得
+class PostDetailView(generics.RetrieveAPIView):
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer
+
+
+
+
+
+
+            Next.js
+    -------------------------------
+https://nextjs.org/
+
+まずは作業するためのフォルダを作成する。
+
+next.jsを利用するには、nodeとnpmが必要になる。
+
+インストールされているか確認する
+node -v
+npm -v
+
+バージョンの情報が表示されればインストールされている。
+
+next.jsのインストールは、以下のコマンド
+※なお、作成するプロジェクト（ファイル名）は大文字は使えない。
+npx create-next-app . --use-npm
+
+サーバーを起動
+npm rum dev
+
+
+
+
+
+
+
+
+
+
+
+            tailwind.css
+    -------------------------------
+    https://tailwindcss.jp/
+
+
+    プロジェクトは立ち上がっているので、以下のコマンドを実行
+    npm install -D tailwindcss postcss autoprefixer
+
+    次に、設定ファイルを作成する
+    npx tailwindcss init -p
+
+    styles/global.cssの内容を書き換える
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+
+    homemodule.cssとpages/apiは必要ないので削除
+
+    index.jsを開き
+    import styles from '../styles/Home.module.css'
+    を削除
+
+    returnの中身を削除する
+    この中にコンテンツを書いていく
+
+    tailwindでは、タグの中に、className=""で装飾していく。
+    tailwindのチートシートを活用する
+
+
+    ---
+
+    componentsフォルダを作成
+      layoutフォルダを作成
+        layout.jsを作成
+
+        layout.jsでは、ページ共通のナビゲーションやヘッダー、フッターなどを記述する
+
+        Navigationをインポートしておく
+        import Navigation from "./navigation";
+
+
+        続いて、以下のように記述する。
+        returnの中はhtmlで記述
+         {props.children}の部分はページによって表示が変わるといった動的に切り替わるところ。
+        ここでは、メイン部分はコンテンツによって切り替わるため、このように指定し、
+        逆にフッターはどのページでも不変のため、ダイレクトに記述した
+
+        export default function Layout(props) {
+            return (
+                <div className="flex flex-cl min -h-screen">
+                    <Navigation />
+                    <main className="container flex flex-1 justify-center mx-auto px-5 max-w-screen-lg">
+                        {props.children}
+                    </main>
+                    <footer className="flex items-center justify-center w-full h-20 text-sm border-t">
+                        ©︎ 2022 NextJS Startup
+                    </footer>
+                </div>       
+            );
+        }
