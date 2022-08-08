@@ -82,4 +82,9 @@ $ npm rum dev
 ![](../../img/13_nextjs02.png)
 ***
 次回は具体的に画面の編集方法と、cssの強力なツールである``Tailwind.css``を記録したい思います。  
-お疲れ様でした。
+お疲れ様でした。  
+  
+
+**→ 2022/8/8更新[【Tailwind】簡単にcssのコーディングができるツール](https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/)**  
+  
+  
