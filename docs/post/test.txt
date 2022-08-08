@@ -186,28 +186,26 @@ class PostDetailView(generics.RetrieveAPIView):
 
 
 
-            Next.js
-    -------------------------------
-https://nextjs.org/
+                            Next.js
+                    -------------------------------
+                https://nextjs.org/
 
-まずは作業するためのフォルダを作成する。
+                まずは作業するためのフォルダを作成する。
 
-next.jsを利用するには、nodeとnpmが必要になる。
+                next.jsを利用するには、nodeとnpmが必要になる。
 
-インストールされているか確認する
-node -v
-npm -v
+                インストールされているか確認する
+                node -v
+                npm -v
 
-バージョンの情報が表示されればインストールされている。
+                バージョンの情報が表示されればインストールされている。
 
-next.jsのインストールは、以下のコマンド
-※なお、作成するプロジェクト（ファイル名）は大文字は使えない。
-npx create-next-app . --use-npm
+                next.jsのインストールは、以下のコマンド
+                ※なお、作成するプロジェクト（ファイル名）は大文字は使えない。
+                npx create-next-app . --use-npm
 
-サーバーを起動
-npm rum dev
-
-
+                サーバーを起動
+                npm rum dev
 
 
 
@@ -217,24 +215,26 @@ npm rum dev
 
 
 
-            tailwind.css
-    -------------------------------
-    https://tailwindcss.jp/
 
 
-    プロジェクトは立ち上がっているので、以下のコマンドを実行
-    npm install -D tailwindcss postcss autoprefixer
-
-    次に、設定ファイルを作成する
-    npx tailwindcss init -p
-
-    styles/global.cssの内容を書き換える
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
+                            tailwind.css
+                    -------------------------------
+                    https://tailwindcss.jp/
 
 
-    homemodule.cssとpages/apiは必要ないので削除
+                    プロジェクトは立ち上がっているので、以下のコマンドを実行
+                    npm install -D tailwindcss postcss autoprefixer
+
+                    次に、設定ファイルを作成する
+                    npx tailwindcss init -p
+
+                    styles/global.cssの内容を書き換える
+                    @tailwind base;
+                    @tailwind components;
+                    @tailwind utilities;
+
+
+                    homemodule.cssとpages/apiは必要ないので削除
 
     index.jsを開き
     import styles from '../styles/Home.module.css'
@@ -278,3 +278,27 @@ npm rum dev
                 </div>       
             );
         }
+
+
+次に、navigation/layoutにnavigation.jsを作成
+
+以下、作成
+import Link from "next/link";
+
+export default function Navigation() {
+    return (
+        <header className="container flex flex-row items-center mx-auto px-5 py-14 max-w-screen-lg">
+            <link href="/">
+                <a className="text-4xl font-bold text-red-300">NextJS Startup</a>
+            </link>
+            <nav className="ml-auto">
+                <link href="/about">
+                    <a className="mr-5">About</a>
+                </link>
+            </nav>
+        </header>
+    );
+}
+
+_app.jsを開く
+ここで初期化している。

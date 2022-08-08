@@ -217,24 +217,24 @@ class PostDetailView(generics.RetrieveAPIView):
 
 
 
-            tailwind.css
-    -------------------------------
-    https://tailwindcss.jp/
+                            tailwind.css
+                    -------------------------------
+                    https://tailwindcss.jp/
 
 
-    プロジェクトは立ち上がっているので、以下のコマンドを実行
-    npm install -D tailwindcss postcss autoprefixer
+                    プロジェクトは立ち上がっているので、以下のコマンドを実行
+                    npm install -D tailwindcss postcss autoprefixer
 
-    次に、設定ファイルを作成する
-    npx tailwindcss init -p
+                    次に、設定ファイルを作成する
+                    npx tailwindcss init -p
 
-    styles/global.cssの内容を書き換える
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
+                    styles/global.cssの内容を書き換える
+                    @tailwind base;
+                    @tailwind components;
+                    @tailwind utilities;
 
 
-    homemodule.cssとpages/apiは必要ないので削除
+                    homemodule.cssとpages/apiは必要ないので削除
 
     index.jsを開き
     import styles from '../styles/Home.module.css'
@@ -278,3 +278,27 @@ class PostDetailView(generics.RetrieveAPIView):
                 </div>       
             );
         }
+
+
+次に、navigation/layoutにnavigation.jsを作成
+
+以下、作成
+import Link from "next/link";
+
+export default function Navigation() {
+    return (
+        <header className="container flex flex-row items-center mx-auto px-5 py-14 max-w-screen-lg">
+            <link href="/">
+                <a className="text-4xl font-bold text-red-300">NextJS Startup</a>
+            </link>
+            <nav className="ml-auto">
+                <link href="/about">
+                    <a className="mr-5">About</a>
+                </link>
+            </nav>
+        </header>
+    );
+}
+
+_app.jsを開く
+ここで初期化している。
