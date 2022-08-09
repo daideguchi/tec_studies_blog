@@ -304,5 +304,15 @@ _app.jsを開く
 ここで初期化している。
 
 
+componetsフォルダ内に作成したlayout.jsを作成し、テンプレートのページを作る。
+Linkコンポーネントは、Pagesフォルダ内のファイル名を直接パスとして指定することができる。
+                <Link href="/blog-page">
+                  <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                    blog
+                  </a>
+                </Link>
+
 
 pagesに.jsファイルを作成することでページを追加することができる
+
+画像はpublicフォルダに直接入れる
