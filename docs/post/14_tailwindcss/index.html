@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="【Tailwind】簡単にcssのコーディングができるツール">
 <meta itemprop="description" content="巷で話題のCSSツール「Tailwind」をNext.jsに導入した記録"><meta itemprop="datePublished" content="2022-08-08T22:54:19+09:00" />
 <meta itemprop="dateModified" content="2022-08-08T22:54:19+09:00" />
-<meta itemprop="wordCount" content="109">
+<meta itemprop="wordCount" content="110">
 <meta itemprop="keywords" content="プログラミング,フロントエンド,tailwind," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="【Tailwind】簡単にcssのコーディングができるツール"/>
@@ -160,7 +160,8 @@ cd my-project
 <h2 id="30_インストール後の設定">3.0_インストール後の設定</h2>
 <hr>
 <p><code>tailwind.config.js</code>を開きます。
-contentの配列部分がデフォルトだと空欄になっていると思うので、以下のように編集します。</p>
+contentの配列部分がデフォルトだと空欄になっていると思うので、以下のように編集します。<br>
+動作を軽くさせるために行います。（デプロイ時に、特定のファイルだけCSSを生成させるため）</p>
 <div class="highlight light line-number copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">/** @type {import(&#39;tailwindcss&#39;).Config} */</span> 
 </span></span><span style="display:flex;"><span>module<span style="color:#f92672">.</span><span style="color:#a6e22e">exports</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>  content<span style="color:#f92672">:</span> <span style="color:#f92672">[</span>
@@ -172,7 +173,7 @@ contentの配列部分がデフォルトだと空欄になっていると思う�
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">},</span>
 </span></span><span style="display:flex;"><span>  plugins<span style="color:#f92672">:</span> <span style="color:#f92672">[],</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span></code></pre></div><p>続いて、<code>globals.css</code>を編集します。<br>
+</span></span></code></pre></div><p>続いて、styleフォルダ内の<code>globals.css</code>を編集します。<br>
 中身は以下の３行のみで大丈夫です。</p>
 <div class="highlight light line-number copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@tailwind</span> base<span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@tailwind</span> components<span style="color:#f92672">;</span>

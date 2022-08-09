@@ -55,7 +55,8 @@ npx tailwindcss init -p
 ## 3.0_インストール後の設定
 ***
 ``tailwind.config.js``を開きます。 
-contentの配列部分がデフォルトだと空欄になっていると思うので、以下のように編集します。 
+contentの配列部分がデフォルトだと空欄になっていると思うので、以下のように編集します。  
+動作を軽くさせるために行います。（デプロイ時に、特定のファイルだけCSSを生成させるため）
 ```java Hello.java {.light .line-number .copy}
 /** @type {import('tailwindcss').Config} */ 
 module.exports = {
@@ -69,7 +70,7 @@ module.exports = {
   plugins: [],
 }
 ```  
-続いて、``globals.css``を編集します。  
+続いて、styleフォルダ内の``globals.css``を編集します。  
 中身は以下の３行のみで大丈夫です。
 ```java Hello.java {.light .line-number .copy}
 @tailwind base;
