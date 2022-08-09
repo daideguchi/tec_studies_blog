@@ -32,22 +32,24 @@ tags:
 ***
 ### 2.1_まだ作業ファイルを作成していない場合
 - これから一から作業を開始する場合は、以下のコマンドからプロジェクトを立ち上げます。  
+ここでは、「my-project」という名称のファイルを作成します。    
 ``cd my-project``でディレクトリをプロジェクトファイルに移動できますが、vsコードで作成したファイルを開いたうえで、vsコードのターミナルを起動すると、ディレクトリは既にプロジェクトの階層まで自動で遷移していますので便利です。  
 ちなみに``cd``は``Change Directory(階層の変更)``という意味です。
 ```
-$ npx create-next-app my-project
-$ cd my-project
+npx create-next-app my-project  
+↓
+cd my-project
 ```
 ***
 ### 2.2_既にプロジェクトがある場合
 まず、作業しているフォルダのターミナルを開きます。  
 以下のコマンドで、パッケージをまるっとインストールします。
 ```
-$ npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss postcss autoprefixer
 ```
 次に、設定ファイルを作成します。
 ```
-$ npx tailwindcss init -p
+npx tailwindcss init -p
 ```
 ***
 ## 3.0_インストール後の設定
@@ -104,7 +106,7 @@ export default function Home() {
 ***
 設定を反映させて、以下のコマンドでサーバーを立ち上げましょう。
 ```
-$ npm run dev
+npm run dev
 ```
 ターミナル上にローカルのURLが表示されるはずなので、アクセスします。  
 ``Hello world``が表示されれば成功です。

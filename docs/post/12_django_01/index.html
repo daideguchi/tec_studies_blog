@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="【Django】Pythonフレームワークの環境構築とインストール">
 <meta itemprop="description" content="今日は、PythonのフレームワークであるDjangoの環境構築の記録を残します。"><meta itemprop="datePublished" content="2022-08-07T22:06:47+09:00" />
 <meta itemprop="dateModified" content="2022-08-07T22:06:47+09:00" />
-<meta itemprop="wordCount" content="117">
+<meta itemprop="wordCount" content="111">
 <meta itemprop="keywords" content="プログラミング,Python,Django," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="【Django】Pythonフレームワークの環境構築とインストール"/>
@@ -139,10 +139,10 @@ Djangoを使えば、コンテンツ管理システムやWikiからソーシャ�
 <h4 id="21_pythonをインストールし仮想環境を構築する">2.1_Pythonをインストールし、仮想環境を構築する</h4>
 <hr>
 <p>まずはPython3系の環境をインストールします。</p>
-<pre tabindex="0"><code>$ python3 -m venv myvenv
+<pre tabindex="0"><code>python3 -m venv myvenv
 </code></pre><p>続いて、以下のコマンドを実行します。<br>
 このコマンドを実行することで、Pythonの仮想環境の構築を行います。</p>
-<pre tabindex="0"><code>$ source myvenv/bin/activate
+<pre tabindex="0"><code>source myvenv/bin/activate
 </code></pre><p>ターミナルにの先頭に<code>(myvenv)</code>と表示されれば成功です。</p>
 <hr>
 <h4 id="22_requirementstxtファイルの作成">2.2_requirements.txtファイルの作成</h4>
@@ -158,13 +158,13 @@ Djangoを使えば、コンテンツ管理システムやWikiからソーシャ�
 </span></span><span style="display:flex;"><span>djangorestframework<span style="color:#f92672">~=</span>3<span style="color:#f92672">.</span><span style="color:#a6e22e">11</span><span style="color:#f92672">.</span><span style="color:#a6e22e">1</span>
 </span></span><span style="display:flex;"><span>pillow<span style="color:#f92672">==</span>9<span style="color:#f92672">.</span><span style="color:#a6e22e">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">0</span>
 </span></span></code></pre></div><p>記述が完了したら、一括でインストールするために、ターミナルで以下を実行します。</p>
-<pre tabindex="0"><code>$ pip3 install -r requirements.txt  
+<pre tabindex="0"><code>pip3 install -r requirements.txt  
 </code></pre><hr>
 <h4 id="23_プロジェクトをスタートさせる">2.3_プロジェクトをスタートさせる</h4>
 <hr>
 <p>インストールが完了したらプロジェクトをスタートさせます。
 以下、最後のドットは「ディレクトリ直下」にファイルを作成させると言う意味です。</p>
-<pre tabindex="0"><code>$ django-admin startproject 「任意のプロジェクト名」 .
+<pre tabindex="0"><code>django-admin startproject 「任意のプロジェクト名」 .
 </code></pre><p>プロジェクト名のフォルダが作成されるので、その中の<code>setting.py</code>を開きます。<br>
 今のうちに、言語とタイムゾーンを日本に設定しておきます。</p>
 <div class="highlight light line-number copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
@@ -177,9 +177,9 @@ Djangoを使えば、コンテンツ管理システムやWikiからソーシャ�
 </span></span><span style="display:flex;"><span><span style="color:#f92672">~~~~~~</span>
 </span></span></code></pre></div><h4 id="24_データベースのセットアップ">2.4_データベースのセットアップ</h4>
 <p>以下のコマンドを実行しましょう。</p>
-<pre tabindex="0"><code>$ python3 manage.py migrate 
+<pre tabindex="0"><code>python3 manage.py migrate 
 </code></pre><p>ここまで終わったら、ウェブサーバーを起動します。</p>
-<pre tabindex="0"><code>$ python3 manage.py runserver
+<pre tabindex="0"><code>python3 manage.py runserver
 </code></pre><p>実行するとターミナルでは以下のような表示になります。</p>
 <pre tabindex="0"><code>Watching for file changes with StatReloader
 Performing system checks...

@@ -20,7 +20,7 @@
 <meta itemprop="description" content="【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する
 プログラミングを学びながらブログを運営できる"><meta itemprop="datePublished" content="2022-07-31T22:51:11+09:00" />
 <meta itemprop="dateModified" content="2022-07-31T22:51:11+09:00" />
-<meta itemprop="wordCount" content="233">
+<meta itemprop="wordCount" content="226">
 <meta itemprop="keywords" content="プログラミング,Hugo,サイト作成," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="【Hugo】静的サイトジェネレータで無料ブログサイトを作る"/>
@@ -133,7 +133,7 @@ if (!doNotTrack) {
 <p>ブログといえば「アメーバブログ」や「はてなブログ」などのサービスを利用するか、<br>
 有料のサーバーを契約して、「WordPress」で一からブログを作るか。</p>
 <p>というイメージが強いと思います。</p>
-<p>今回は、「静的サイトジェネレータ（SSG)」で無料の爆速ブログを簡単に構築する方法を紹介します。</p>
+<p>今回は、「<code>静的サイトジェネレータ（SSG)</code>」で無料の爆速ブログを簡単に構築する方法を紹介します。</p>
 <p>概要については、こちらの記事が分かりやすいです。<br>
 <a href="https://fastcoding.jp/blog/all/info/ssg/">【2021注目】フロントエンド開発「静的サイトジェネレータ</a></p>
 <p>上記の記事でも紹介されているとおり、CLI(ターミナルなどのコマンド)や、Githubなど、<br>
@@ -177,15 +177,15 @@ if (!doNotTrack) {
 <hr>
 <p>まずは公式サイトに沿って、簡単なサイトを作ってみましょう。<br>
 <a href="https://gohugo.io/">公式サイト-&gt;Hugo</a></p>
-<p>以下のコマンドをターミナルで実行します。(冒頭の$は入力しません)</p>
+<p>以下のコマンドをターミナルで実行します。</p>
 <h4 id="1hugoのパッケージをインストールする">1.hugoのパッケージをインストールする</h4>
-<pre tabindex="0"><code>$ brew install hugo
+<pre tabindex="0"><code>brew install hugo
   or
-$ port install hugo
+port install hugo
 </code></pre><h4 id="2サイトを構築する">2.サイトを構築する</h4>
 <p>以下コマンドで、現在のディレクトリにファイルが生成されます。<br>
 「quickstart」となっているところはファイルの名称なので、任意で大丈夫です。</p>
-<pre tabindex="0"><code>$ hugo new site quickstart
+<pre tabindex="0"><code>hugo new site quickstart
 </code></pre><p>ファイルが作成されます。<br>
 vscodeのエディタを使っている場合、この時点でvscode内のターミナルを使用すると分かりやすいです。<br>
 その場合は、自動的にフォルダ内の階層に移動してくれるので、以下の<code>$ cd quickstart</code>コマンドは不要です。</p>
@@ -193,13 +193,15 @@ vscodeのエディタを使っている場合、この時点でvscode内のタ�
 <p>用意されているテーマは無数にあります。有志のクリエイター達がたくさん作成してくれています。<br>
 <a href="https://jamstackthemes.dev/ssg/hugo/">Hugoのテーマ集</a><br>
 今回は、公式のデフォルトでもある「Ananke テーマ」を使用します。</p>
-<pre tabindex="0"><code>$ cd quickstart
-$ git init
-$ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+<pre tabindex="0"><code>cd quickstart  
+↓  
+git init  
+↓  
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 </code></pre><h4 id="4コンテンツを追加する">4.コンテンツを追加する</h4>
 <p>とりあえず、サイトの最低限の体裁は整ったので、記事を一つ追加してみましょう。<br>
 なお、手動で<code>content/post</code>内に、フォルダを作成しても大丈夫です。</p>
-<pre tabindex="0"><code>$ hugo new post/my-first-post.md
+<pre tabindex="0"><code>hugo new post/my-first-post.md
 </code></pre><p>上記を実行すると、<code>content/post</code>に<code>my-first-post.md</code>という名前のマークダウンのファイルが作成されています。<br>
 もちろんファイルの名前も自分の好みでオッケーです。</p>
 <h4 id="5コンテンツを確認する">5.コンテンツを確認する</h4>
@@ -219,7 +221,7 @@ $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git the
 <h4 id="6hugoサーバーを立ち上げる">6.Hugoサーバーを立ち上げる</h4>
 <p>では、早速、サーバーを起動します。
 ちなみに、<code>-D</code>を記述することで、下書きの状態も表示してくれるので覚えておきましょう。</p>
-<pre tabindex="0"><code>$ hugo server -D
+<pre tabindex="0"><code>hugo server -D
 
                    | EN
 +------------------+----+
@@ -260,7 +262,7 @@ Press Ctrl+C to stop
 <h4 id="8ビルドする">8.ビルドする</h4>
 <p>最後に、記事の編集を行なった場合や、基本的な情報を変更した場合など、何らかのアクションを行なった場合、<br>
 以下のコマンドを実行します。</p>
-<pre tabindex="0"><code>$ hugo
+<pre tabindex="0"><code>hugo
 </code></pre><p>このコマンド一つで自動的に色々と微調整してくれます。</p>
 <hr>
 <p>さて、ここまでで一応サイトを立ち上げることができました。<br>

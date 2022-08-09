@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="【Tailwind】簡単にcssのコーディングができるツール">
 <meta itemprop="description" content="巷で話題のCSSツール「Tailwind」をNext.jsに導入した記録"><meta itemprop="datePublished" content="2022-08-08T22:54:19+09:00" />
 <meta itemprop="dateModified" content="2022-08-08T22:54:19+09:00" />
-<meta itemprop="wordCount" content="112">
+<meta itemprop="wordCount" content="109">
 <meta itemprop="keywords" content="プログラミング,フロントエンド,tailwind," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="【Tailwind】簡単にcssのコーディングができるツール"/>
@@ -142,18 +142,20 @@ if (!doNotTrack) {
 <h3 id="21_まだ作業ファイルを作成していない場合">2.1_まだ作業ファイルを作成していない場合</h3>
 <ul>
 <li>これから一から作業を開始する場合は、以下のコマンドからプロジェクトを立ち上げます。<br>
+ここでは、「my-project」という名称のファイルを作成します。 <br>
 <code>cd my-project</code>でディレクトリをプロジェクトファイルに移動できますが、vsコードで作成したファイルを開いたうえで、vsコードのターミナルを起動すると、ディレクトリは既にプロジェクトの階層まで自動で遷移していますので便利です。<br>
 ちなみに<code>cd</code>は<code>Change Directory(階層の変更)</code>という意味です。</li>
 </ul>
-<pre tabindex="0"><code>$ npx create-next-app my-project
-$ cd my-project
+<pre tabindex="0"><code>npx create-next-app my-project  
+↓
+cd my-project
 </code></pre><hr>
 <h3 id="22_既にプロジェクトがある場合">2.2_既にプロジェクトがある場合</h3>
 <p>まず、作業しているフォルダのターミナルを開きます。<br>
 以下のコマンドで、パッケージをまるっとインストールします。</p>
-<pre tabindex="0"><code>$ npm install -D tailwindcss postcss autoprefixer
+<pre tabindex="0"><code>npm install -D tailwindcss postcss autoprefixer
 </code></pre><p>次に、設定ファイルを作成します。</p>
-<pre tabindex="0"><code>$ npx tailwindcss init -p
+<pre tabindex="0"><code>npx tailwindcss init -p
 </code></pre><hr>
 <h2 id="30_インストール後の設定">3.0_インストール後の設定</h2>
 <hr>
@@ -197,7 +199,7 @@ Next.jsの場合、<code>homemodule.css</code>と<code>pages/api</code>は必要
 <h2 id="50_ビルドする">5.0_ビルドする</h2>
 <hr>
 <p>設定を反映させて、以下のコマンドでサーバーを立ち上げましょう。</p>
-<pre tabindex="0"><code>$ npm run dev
+<pre tabindex="0"><code>npm run dev
 </code></pre><p>ターミナル上にローカルのURLが表示されるはずなので、アクセスします。<br>
 <code>Hello world</code>が表示されれば成功です。</p>
 <hr>

@@ -27,7 +27,7 @@ tags:
 
 というイメージが強いと思います。
 
-今回は、「静的サイトジェネレータ（SSG)」で無料の爆速ブログを簡単に構築する方法を紹介します。  
+今回は、「``静的サイトジェネレータ（SSG)``」で無料の爆速ブログを簡単に構築する方法を紹介します。  
 
 概要については、こちらの記事が分かりやすいです。  
 [【2021注目】フロントエンド開発「静的サイトジェネレータ](https://fastcoding.jp/blog/all/info/ssg/)
@@ -58,22 +58,22 @@ tags:
 まずは公式サイトに沿って、簡単なサイトを作ってみましょう。  
 [公式サイト->Hugo](https://gohugo.io/)  
   
-以下のコマンドをターミナルで実行します。(冒頭の$は入力しません)  
+以下のコマンドをターミナルで実行します。 
 
 
   
 #### 1.hugoのパッケージをインストールする
 ```
-$ brew install hugo
+brew install hugo
   or
-$ port install hugo
+port install hugo
 ```
 
 #### 2.サイトを構築する  
 以下コマンドで、現在のディレクトリにファイルが生成されます。  
 「quickstart」となっているところはファイルの名称なので、任意で大丈夫です。
 ```
-$ hugo new site quickstart
+hugo new site quickstart
 ```
 ファイルが作成されます。  
 vscodeのエディタを使っている場合、この時点でvscode内のターミナルを使用すると分かりやすいです。  
@@ -84,15 +84,17 @@ vscodeのエディタを使っている場合、この時点でvscode内のタ�
 [Hugoのテーマ集](https://jamstackthemes.dev/ssg/hugo/)  
 今回は、公式のデフォルトでもある「Ananke テーマ」を使用します。
 ```
-$ cd quickstart
-$ git init
-$ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+cd quickstart  
+↓  
+git init  
+↓  
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 #### 4.コンテンツを追加する
 とりあえず、サイトの最低限の体裁は整ったので、記事を一つ追加してみましょう。  
 なお、手動で```content/post```内に、フォルダを作成しても大丈夫です。
 ```
-$ hugo new post/my-first-post.md
+hugo new post/my-first-post.md
 ```
 上記を実行すると、```content/post```に``my-first-post.md``という名前のマークダウンのファイルが作成されています。  
 もちろんファイルの名前も自分の好みでオッケーです。  
@@ -117,7 +119,7 @@ draft: true
 ちなみに、``-D``を記述することで、下書きの状態も表示してくれるので覚えておきましょう。
 
 ```
-$ hugo server -D
+hugo server -D
 
                    | EN
 +------------------+----+
@@ -163,7 +165,7 @@ theme = "ananke"
 最後に、記事の編集を行なった場合や、基本的な情報を変更した場合など、何らかのアクションを行なった場合、  
 以下のコマンドを実行します。
 ```
-$ hugo
+hugo
 ```
 このコマンド一つで自動的に色々と微調整してくれます。  
 ***

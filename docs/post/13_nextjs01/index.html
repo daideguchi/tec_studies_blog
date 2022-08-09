@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="【Next.js】強力なフロントエンドのフレームワーク①">
 <meta itemprop="description" content="webサイトを作成する際に強力なツールであるNext.jsをインストールするまでの記録"><meta itemprop="datePublished" content="2022-08-08T21:32:06+09:00" />
 <meta itemprop="dateModified" content="2022-08-08T21:32:06+09:00" />
-<meta itemprop="wordCount" content="64">
+<meta itemprop="wordCount" content="59">
 <meta itemprop="keywords" content="プログラミング,フロントエンド,Next.js," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="【Next.js】強力なフロントエンドのフレームワーク①"/>
@@ -145,8 +145,8 @@ Hugoにはない機能ですが、SE0やアプリ開発を効率化させるSSR(
 vsコード上でターミナルを起動します。</p>
 <p>Next.jsを利用するには、<code>node</code>と<code>npm</code>のインストールが事前に必要になります。</p>
 <p>現在、インストールされているか確認するには、以下のコードをターミナルで実行しましょう。</p>
-<pre tabindex="0"><code>$ node -v
-$ npm -v
+<pre tabindex="0"><code>node -v
+npm -v
 </code></pre><p>結果、バージョンの情報が表示されればインストールされていますので、次の手順に進めます。<br>
 まだインストールされていない場合は、あらかじめインストールする必要があります。</p>
 <hr>
@@ -159,14 +159,14 @@ $ npm -v
 <hr>
 <p>以下のコマンドを実行しましょう。
 なお、<code>sudo</code>は管理者権限で実行するという意味なので、パスワードを求められると思います。</p>
-<pre tabindex="0"><code>$ sudo npm install -g npm
+<pre tabindex="0"><code>sudo npm install -g npm
 </code></pre><hr>
 <h2 id="30_nextjsをインストール">3.0_Next.jsをインストール</h2>
 <hr>
 <p>以下のコマンドを実行します。</p>
-<pre tabindex="0"><code>$ npx create-next-app . --use-npm
+<pre tabindex="0"><code>npx create-next-app . --use-npm
 </code></pre><p>成功したら、以下のコマンドを実行して、サーバーを起動します。</p>
-<pre tabindex="0"><code>$ npm run dev
+<pre tabindex="0"><code>npm run dev
 </code></pre><p>ローカルのURL<code>(http://localhost:3000)</code>がターミナルに表示されるので、アクセスします。<br>
 以下の画面が表示されればインストールが成功です。</p>
 <hr>

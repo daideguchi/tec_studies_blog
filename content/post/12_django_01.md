@@ -38,13 +38,13 @@ Djangoを使えば、コンテンツ管理システムやWikiからソーシャ�
 ***
 まずはPython3系の環境をインストールします。  
 ```
-$ python3 -m venv myvenv
+python3 -m venv myvenv
 ```  
 
 続いて、以下のコマンドを実行します。  
 このコマンドを実行することで、Pythonの仮想環境の構築を行います。
 ```
-$ source myvenv/bin/activate
+source myvenv/bin/activate
 ```
 ターミナルにの先頭に``(myvenv)``と表示されれば成功です。  
 
@@ -69,7 +69,7 @@ pillow==9.2.0
 
 記述が完了したら、一括でインストールするために、ターミナルで以下を実行します。
 ```
-$ pip3 install -r requirements.txt  
+pip3 install -r requirements.txt  
 ```
 
 ***
@@ -78,7 +78,7 @@ $ pip3 install -r requirements.txt
 インストールが完了したらプロジェクトをスタートさせます。
 以下、最後のドットは「ディレクトリ直下」にファイルを作成させると言う意味です。
 ```
-$ django-admin startproject 「任意のプロジェクト名」 .
+django-admin startproject 「任意のプロジェクト名」 .
 ```  
 プロジェクト名のフォルダが作成されるので、その中の``setting.py``を開きます。  
 今のうちに、言語とタイムゾーンを日本に設定しておきます。
@@ -96,11 +96,11 @@ TIME_ZONE = 'Asia/Tokyo'
 #### 2.4_データベースのセットアップ
 以下のコマンドを実行しましょう。
 ```
-$ python3 manage.py migrate 
+python3 manage.py migrate 
 ```
 ここまで終わったら、ウェブサーバーを起動します。
 ```
-$ python3 manage.py runserver
+python3 manage.py runserver
 ```
 実行するとターミナルでは以下のような表示になります。
 ```

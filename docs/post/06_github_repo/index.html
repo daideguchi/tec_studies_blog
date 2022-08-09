@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="【Github】作ったソースコードを保管する">
 <meta itemprop="description" content="Githubにソースコードを保管するまでの最低限の流れを解説します。"><meta itemprop="datePublished" content="2022-08-03T08:44:45+09:00" />
 <meta itemprop="dateModified" content="2022-08-03T08:44:45+09:00" />
-<meta itemprop="wordCount" content="60">
+<meta itemprop="wordCount" content="55">
 <meta itemprop="keywords" content="プログラミング,Github,サイト作成,デプロイ," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="【Github】作ったソースコードを保管する"/>
@@ -157,19 +157,19 @@ if (!doNotTrack) {
 <p>ここまでできたら、ターミナルを起動、もしくはvscodeのターミナルを開き、アップしたいフォルダのディレクトリまで移動しておきます。<br>
 vscodeのターミナルの場合は、自動的にフォルダの階層までデフォルトで移動されています。<br>
 まずは、新しく作成したリポジトリと、アップしたいフォルダが紐付きます。</p>
-<pre tabindex="0"><code>$ git remote add origin 「コピーしたSSH」
+<pre tabindex="0"><code>git remote add origin 「コピーしたSSH」
 </code></pre><p>次に、Githubにアップロードする準備ファイルを作成します。以下コマンドで、対象フォルダ内に隠しファイルの設定データが格納されます。</p>
-<pre tabindex="0"><code>$ git init
+<pre tabindex="0"><code>git init
 </code></pre><p>続いて、全てのデータをセットします。ピリオド「<code>.</code>」を打つことで、全てのファイルを対象とすることができます。<br>
 任意のファイルのみアップしたい場合は、ピリオドではなく、任意のファイル名を入力します。</p>
-<pre tabindex="0"><code>$ git add .
+<pre tabindex="0"><code>git add .
 </code></pre><p>次に、アップするデータをコミットします。メッセージを任意で設定します。<br>
 なお、メッセージの設定は必須ですので、忘れないようにしましょう。</p>
-<pre tabindex="0"><code>$ git commit -m &#34;「任意のメッセージ」&#34;
+<pre tabindex="0"><code>git commit -m &#34;「任意のメッセージ」&#34;
 </code></pre><p>最後に、push（アップロード）します。ブランチという概念があり、「<code>main</code>」か「<code>master</code>」になります。<br>
 ここは個別の環境によっても違いますし、別途設定することもできます。<br>
 うまくいかない場合は、もう一つの方で試してみてください。</p>
-<pre tabindex="0"><code>$ git push origin main もしくは git push origin master
+<pre tabindex="0"><code>git push origin main もしくは git push origin master
 </code></pre><p>これで一応、最低限のアップロード作業は完了です。<br>
 先ほどのリポジトリのページを更新すると、アップロードが完了しているはずです。<br>
 他にもさまざまなコードがありますが、それはまた別の機会に紹介したい思います。</p>
