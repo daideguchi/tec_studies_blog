@@ -12,7 +12,7 @@ tags:
   - "tailwind"
 ---
 
-巷で話題のCSSツール「Tailwind」を``Next.js``に導入した記録
+巷で話題のCSSツール「``Tailwind``」をNext.jsに導入した記録
 <!--more-->
 
 ***

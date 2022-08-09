@@ -302,3 +302,7 @@ export default function Navigation() {
 
 _app.jsを開く
 ここで初期化している。
+
+
+
+pagesに.jsファイルを作成することでページを追加することができる

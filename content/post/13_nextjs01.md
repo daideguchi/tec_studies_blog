@@ -12,7 +12,7 @@ tags:
   - "Next.js"
 ---
 
-webサイトを作成する際に強力なツールであるNext.jsをインストールするまでの記録
+webサイトを作成する際に強力なツールである``Next.js``をインストールするまでの記録
 <!--more-->
 
 ***
@@ -75,7 +75,7 @@ $ npx create-next-app . --use-npm
 成功したら、以下のコマンドを実行して、サーバーを起動します。
 
 ```
-$ npm rum dev
+$ npm run dev
 ```
 ローカルのURLが表示されるので、アクセスしてみて、以下の画面が表示されればインストールが成功です。
 ***
@@ -86,5 +86,4 @@ $ npm rum dev
   
 
 **→ 2022/8/8更新[【Tailwind】簡単にcssのコーディングができるツール](https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/)**  
-  
   
