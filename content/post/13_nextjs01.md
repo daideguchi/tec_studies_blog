@@ -87,5 +87,5 @@ npm run dev
   
 
 **→ 2022/8/8更新[【Tailwind】簡単にcssのコーディングができるツール](https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/)**  
-**→ 2022/8/10更新[【【Next.js_②】作成したプロジェクトでページの編集をする](https://daideguchi.github.io/tec_studies_blog/post/15_nextjs02/)**  
+<!-- **→ 2022/8/10更新[【【Next.js_②】作成したプロジェクトでページの編集をする](https://daideguchi.github.io/tec_studies_blog/post/15_nextjs02/)**   -->
   
