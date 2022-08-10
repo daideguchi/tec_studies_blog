@@ -1,5 +1,5 @@
 ---
-title: "【Next.js】強力なフロントエンドのフレームワーク①"
+title: "【Next.js_①】強力なフロントエンドのフレームワーク"
 date: 2022-08-08T21:32:06+09:00
 draft: false
 categories:
@@ -87,4 +87,5 @@ npm run dev
   
 
 **→ 2022/8/8更新[【Tailwind】簡単にcssのコーディングができるツール](https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/)**  
+**→ 2022/8/10更新[【【Next.js_②】作成したプロジェクトでページの編集をする](https://daideguchi.github.io/tec_studies_blog/post/15_nextjs02/)**  
   
