@@ -316,3 +316,25 @@ Linkコンポーネントは、Pagesフォルダ内のファイル名を直接�
 pagesに.jsファイルを作成することでページを追加することができる
 
 画像はpublicフォルダに直接入れる
+
+
+
+
+
+github
+---------------------------
+pushしようとしたら以下のエラーが出た時
+error: src refspec main does not match any
+
+ブランチを作成すれば解決した
+git checkout -b main
+
+あとは普通にgit add .の流れ
+
+
+
+
+git のDs_storeを消す方法
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+echo .DS_Store >> .gitignore
+git add .gitignore

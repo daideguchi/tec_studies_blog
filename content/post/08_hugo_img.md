@@ -5,7 +5,6 @@ draft: false
 categories:
   - "学習アウトプット"
   - "Hugo"
-  - "技術"
 tags:
   - "プログラミング"
   - "Hugo"

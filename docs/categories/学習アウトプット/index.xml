@@ -6,7 +6,17 @@
     <description>Recent content in 学習アウトプット on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 08 Aug 2022 22:54:19 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Aug 2022 17:40:46 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【solidity】そもそもsolidityとは</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/10_solidity01/</link>
+      <pubDate>Sat, 13 Aug 2022 17:40:46 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/10_solidity01/</guid>
+      <description>&lt;p&gt;&lt;code&gt;solidity&lt;/code&gt;ってどんな言語？スマートコントラクトとは？&lt;br&gt;
+新しくイチから学習を始めた記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【Tailwind】簡単にcssのコーディングができるツール</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/</link>
