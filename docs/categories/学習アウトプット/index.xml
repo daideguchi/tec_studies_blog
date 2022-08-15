@@ -6,7 +6,17 @@
     <description>Recent content in 学習アウトプット on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 13 Aug 2022 17:40:46 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 12:24:34 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【solidity】REMIX IDEでコーディング前の準備</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/11_solidity02/</link>
+      <pubDate>Mon, 15 Aug 2022 12:24:34 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/11_solidity02/</guid>
+      <description>&lt;p&gt;REMIX IDEを使用してsolidityを書く事前準備の記録&lt;br&gt;
+&lt;code&gt;&amp;quot;SPDX&amp;quot;と&amp;quot;バージョンの指定&amp;quot;&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【solidity】そもそもsolidityとは</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/10_solidity01/</link>
