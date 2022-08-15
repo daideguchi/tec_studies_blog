@@ -16,7 +16,7 @@ REMIX IDEを使用してsolidityを書く事前準備の記録
 ***
 ## 1.0_REMIX IDEを起動する
 ***
-まず、*＊[REMIX IDE](https://remix.ethereum.org/)**を起動しましょう。  
+まず、**[REMIX IDE](https://remix.ethereum.org/)**を起動しましょう。  
 以下の画像は、公式ドキュメントから引用していますが、REMIX IDEを開くと、以下のような画面に遷移します。
 ***
 ![solidity_logo](../../img/11_solidity02.png)
