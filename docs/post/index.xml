@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 15 Aug 2022 12:24:34 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 18:34:46 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Ethereum】イーサリアムって？EVMとは？</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/16_ethereumevm/</link>
+      <pubDate>Sun, 21 Aug 2022 18:34:46 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/16_ethereumevm/</guid>
+      <description>&lt;p&gt;&lt;code&gt;solidity&lt;/code&gt;を学ぶ上で、EVMについて学習した記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【solidity】REMIX IDEでコーディング前の準備</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/11_solidity02/</link>
