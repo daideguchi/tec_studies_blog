@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="【solidity】ERC-20の主な機能について">
 <meta itemprop="description" content="ERC-20と、コントラクトに必要な必須の関数についての記録"><meta itemprop="datePublished" content="2022-08-23T21:30:14+09:00" />
 <meta itemprop="dateModified" content="2022-08-23T21:30:14+09:00" />
-<meta itemprop="wordCount" content="44">
+<meta itemprop="wordCount" content="45">
 <meta itemprop="keywords" content="プログラミング,solidity," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="【solidity】ERC-20の主な機能について"/>
@@ -144,12 +144,13 @@ if (!doNotTrack) {
 <blockquote>
 <p>イーサリアムのデータを提供するイーサスキャン（Etherscan）によると、2020年12月時点で829のプロジェクトと、35万以上のトークンがERC-20規格に基づいている。</p>
 </blockquote>
-<p>ERC-20規格にも、もちろん欠点があり、過去に少なくとも300万ドル（約3億3000万円）相当の盗難被害が報告されているとのことです。<br>
+<p>ただし、ERC-20規格にも、もちろん欠点があり、過去に少なくとも300万ドル（約3億3000万円）相当の盗難被害が報告されているとのことです。<br>
 これを受けて、新しい準拠規格の開発が進んでいますが、依然として、ERC-20規格は使われ続けています。</p>
 <hr>
 <h3 id="30_erc-20に準拠するための６つの必須関数">3.0_ERC-20に準拠するための６つの必須関数</h3>
 <hr>
-<p>このERC-20に準拠するには、６つの関数を必ず規定しなければなりません。</p>
+<p>このERC-20に準拠するには、以下の６つの関数を必ず規定しなければなりません。<br>
+私はsolidityを使って実装していこうと思っています。</p>
 <table>
 <thead>
 <tr>
