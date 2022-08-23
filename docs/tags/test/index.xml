@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>test on 人生を変えるプログラミング</title>
+    <title>test on 人生を変えるプログラミング_web3編</title>
     <link>https://daideguchi.github.io/tec_studies_blog/tags/test/</link>
-    <description>Recent content in test on 人生を変えるプログラミング</description>
+    <description>Recent content in test on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 31 Jul 2022 22:50:11 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 21:30:14 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>静的サイトジェネレータHugoで簡単に無料ブログサイトを作る</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</link>
-      <pubDate>Sun, 31 Jul 2022 22:50:11 +0900</pubDate>
+      <title>17_ERC 20</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/17_erc-20/</link>
+      <pubDate>Tue, 23 Aug 2022 21:30:14 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/05_how_to_hugo/</guid>
-      <description>&lt;p&gt;【わずか５分で無料爆速ブログを作る】hugoで静的サイトジェネレータを開設する
-プログラミングを学びながらブログを運営できる&lt;/p&gt;</description>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/17_erc-20/</guid>
+      <description></description>
     </item>
     
   </channel>

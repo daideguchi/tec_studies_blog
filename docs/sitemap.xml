@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/post/16_ethereumevm/</loc>
-    <lastmod>2022-08-21T18:34:46+09:00</lastmod>
+    <loc>https://daideguchi.github.io/tec_studies_blog/post/17_erc-20/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/categories/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/post/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/tags/solidity/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/categories/solidity/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/tags/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/</loc>
+    <lastmod>2022-08-23T21:30:14+09:00</lastmod>
+  </url><url>
+    <loc>https://daideguchi.github.io/tec_studies_blog/post/16_ethereumevm/</loc>
     <lastmod>2022-08-21T18:34:46+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/tags/ethereum/</loc>
@@ -14,34 +38,13 @@
     <loc>https://daideguchi.github.io/tec_studies_blog/categories/ethereum/</loc>
     <lastmod>2022-08-21T18:34:46+09:00</lastmod>
   </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/post/</loc>
-    <lastmod>2022-08-21T18:34:46+09:00</lastmod>
-  </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/tags/</loc>
-    <lastmod>2022-08-21T18:34:46+09:00</lastmod>
-  </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3/</loc>
     <lastmod>2022-08-21T18:34:46+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/categories/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3/</loc>
     <lastmod>2022-08-21T18:34:46+09:00</lastmod>
   </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/</loc>
-    <lastmod>2022-08-21T18:34:46+09:00</lastmod>
-  </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/</loc>
-    <lastmod>2022-08-21T18:34:46+09:00</lastmod>
-  </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/post/11_solidity02/</loc>
-    <lastmod>2022-08-15T12:24:34+09:00</lastmod>
-  </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/tags/solidity/</loc>
-    <lastmod>2022-08-15T12:24:34+09:00</lastmod>
-  </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/categories/solidity/</loc>
-    <lastmod>2022-08-15T12:24:34+09:00</lastmod>
-  </url><url>
-    <loc>https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2022-08-15T12:24:34+09:00</lastmod>
   </url><url>
     <loc>https://daideguchi.github.io/tec_studies_blog/post/10_solidity01/</loc>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ビジネス系 on 人生を変えるプログラミング</title>
+    <title>ビジネス系 on 人生を変えるプログラミング_web3編</title>
     <link>https://daideguchi.github.io/tec_studies_blog/categories/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E7%B3%BB/</link>
-    <description>Recent content in ビジネス系 on 人生を変えるプログラミング</description>
+    <description>Recent content in ビジネス系 on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 31 Jul 2022 13:05:54 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 21:30:14 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/test/</link>
-      <pubDate>Sun, 31 Jul 2022 13:05:54 +0900</pubDate>
+      <title>17_ERC 20</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/17_erc-20/</link>
+      <pubDate>Tue, 23 Aug 2022 21:30:14 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/test/</guid>
-      <description>あああ
-$ brew install hugo # or $ port install hugo </description>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/17_erc-20/</guid>
+      <description></description>
     </item>
     
   </channel>

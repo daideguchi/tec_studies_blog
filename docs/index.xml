@@ -6,7 +6,16 @@
     <description>Recent content on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 21 Aug 2022 18:34:46 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 21:30:14 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【solidity】ERC-20の主な機能について</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/17_erc-20/</link>
+      <pubDate>Tue, 23 Aug 2022 21:30:14 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/17_erc-20/</guid>
+      <description>&lt;p&gt;&lt;code&gt;ERC-20&lt;/code&gt;と、コントラクトに必要な必須の関数についての記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【Ethereum】イーサリアムって？EVMとは？</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/16_ethereumevm/</link>
