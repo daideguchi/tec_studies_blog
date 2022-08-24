@@ -13,7 +13,7 @@ tags:
 新しくイチから学習を始めた記録
 <!--more-->
 ***
-![solidity_logo](../../img/10_solidity.png)
+![solidity_logo](../../img/18_solidity_logo.png)
 ***
 
 ## 1.0_solidity（ソリディティ）とは

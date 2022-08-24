@@ -71,6 +71,6 @@ NFTを作成した後に、`emit`で「TokenURIChanged」と言う`event`を呼�
         _setTokenURI(newTokenId, uri); //newTokenIdにuriを紐づける
 
         emit TokenURIChanged(to, newTokenId, uri);
-        ^^^^//ここのemitのタイミングで「TokenURIChanged」が発火
+        ^^^^//ここのemitのタイミングで「TokenURIChanged」のeventが発火
     }
 ```
