@@ -122,9 +122,9 @@ if (!doNotTrack) {
 <hr>
 <p><img src="../../img/18_solidity_logo.png" alt="solidity_logo"></p>
 <p>solidityは、そもそもスマートコントラクトを実装させるための言語です。</p>
-<p>おさらいで、スマートコントラクトとは、スマートフォンなどの<code>スマート○○</code>といった類の一つで、直訳すると、**「賢い契約」**です。</p>
+<p>おさらいで、スマートコントラクトとは、スマートフォンなどの<code>スマート○○</code>といった類の一つで、直訳すると、「賢い契約」です。</p>
 <p>コンピュータが自動的に契約をしてくれて、しかもブロックチェーン上に記録されることから、改ざんなどができない非常に透明性の高いものになります。</p>
-<p>例えるなら、自動販売機で、誰がいつどの飲み物を購入したか、世界中の誰でも確認することができると言うものです。</p>
+<p>例えるなら、自動販売機で、誰がいつどの飲み物を購入したか、世界中の誰でも正しい情報を確認することができると言うものです。</p>
 <p><strong><a href="10_solidity01.md">【solidity】そもそもsolidityとは</a></strong></p>
 <hr>
 <h2 id="20-まずはcontract契約の雛形を作る">2.0 まずはcontract(契約)の雛形を作る</h2>
@@ -135,7 +135,7 @@ if (!doNotTrack) {
 <p>まずは、先頭に、</p>
 <ul>
 <li>ライセンスの情報</li>
-<li>solidityのバージョンを指定</li>
+<li>solidityのバージョンの指定</li>
 </ul>
 <p>が終わったら、早速<code>contract（契約）</code>を作成していきます。<br>
 以下、<a href="https://docs.soliditylang.org/en/v0.8.16/contracts.html">公式ドキュメント</a>からの転用ですが、contract内では、状態変数や関数など、さまざまな情報を定義していきます。</p>
@@ -147,7 +147,7 @@ if (!doNotTrack) {
 <li>作ったトークンを売買したり</li>
 </ul>
 <p>色々と応用が効きそうです。</p>
-<p>ここでは公式ドキュメントのサンプルコーディングに簡単な解説を載せておきます。</p>
+<p>ここでは公式ドキュメントのサンプルコーディングに簡単な解説をコメントアウトで載せておきます。</p>
 <div class="highlight light line-number copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">//箱{}  contract:契約。 契約の名前は「OwnedToken」
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>contract OwnedToken <span style="color:#f92672">{</span>
