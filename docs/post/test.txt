@@ -370,3 +370,11 @@ https://docs.ethers.io/v5/getting-started/#getting-started--connecting
 npm install --save ethers
 
 
+
+
+・requireについて（ifのようなもの）
+
+・transactionの構成について
+ transactionの中に関数やイベントなどを記述する
+
+・4つのvisibilityについて（アクセス権限）について
