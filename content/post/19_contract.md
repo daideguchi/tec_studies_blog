@@ -42,6 +42,7 @@ solidityは、そもそもスマートコントラクトを実装させるため
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.4.22 <0.9.0;
 ```
+(参考)[【solidity】REMIX IDEでコーディング前の準備](11_solidity02.md)
 
 まずは、先頭に、
 
