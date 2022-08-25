@@ -6,7 +6,16 @@
     <description>Recent content in solidity on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 24 Aug 2022 12:56:29 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Aug 2022 22:12:20 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【solidity】最初の第一歩。contractを生成する</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/19_contract/</link>
+      <pubDate>Thu, 25 Aug 2022 22:12:20 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/19_contract/</guid>
+      <description>&lt;p&gt;&lt;code&gt;solidity&lt;/code&gt;でスマートコントラクトを実装するための第一歩目&lt;code&gt;contract&lt;/code&gt;の記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【solidity】eventとemitでブロックチェーン上にトランザクションを記録する</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/18_event01/</link>

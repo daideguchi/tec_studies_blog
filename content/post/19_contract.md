@@ -4,12 +4,10 @@ date: 2022-08-25T22:12:20+09:00
 draft: false
 categories:
   - "学習アウトプット"
-  - "ビジネス系"
-  - "その他"
+  - "solidity"
 tags:
   - "プログラミング"
-  - "ビジネス"
-  - "test"
+  - "solidity"
 ---
 
 `solidity`でスマートコントラクトを実装するための第一歩目`contract`の記録
