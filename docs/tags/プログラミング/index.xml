@@ -6,7 +6,16 @@
     <description>Recent content in プログラミング on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 25 Aug 2022 22:12:20 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Aug 2022 20:27:57 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【solidity】4つのvisibilityと呼ばれるアクセス修飾子（権限）について</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/20_solidity_visibilyty/</link>
+      <pubDate>Mon, 29 Aug 2022 20:27:57 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/20_solidity_visibilyty/</guid>
+      <description>&lt;p&gt;&lt;code&gt;contract&lt;/code&gt;にアクセスする権限を設定する&lt;code&gt;Visibility&lt;/code&gt;を学習した記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【solidity】最初の第一歩。contractを生成する</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/19_contract/</link>

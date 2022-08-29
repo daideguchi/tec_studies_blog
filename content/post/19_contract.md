@@ -64,7 +64,6 @@ pragma solidity >=0.4.22 <0.9.0;
 
 ここでは公式ドキュメントのサンプルコーディングに簡単な解説をコメントアウトで載せておきます。
 
-
 ```java Hello.java {.light .line-number .copy}
 
 //箱{}  contract:契約。 契約の名前は「OwnedToken」
