@@ -73,16 +73,16 @@ sudo npm install -g npm
 ## 3.0_Next.jsをインストール
 ***
 以下のコマンドを実行します。
-今回は、「example」と言うデフォルトのテンプレートを使用します。
+今回は、「example」と言う名前のファイルを作成します。
 
 ```
-$ npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+$ npx create-next-app my-project
 ```
 
-成功したら、新しく作成された、`nextjs-blog`と言うディレクトリに移動します。
+成功したら、ターミナルで新しく作成された、`my-project`と言うディレクトリに移動します。
 
 ```
-$ cd nextjs-blog
+$ cd my-project
 ```
 
 ディレクトリを移動したら、
