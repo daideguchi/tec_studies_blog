@@ -42,16 +42,21 @@ vsコード上でターミナルを起動します。
 Next.jsを利用するには、``node``と``npm``のインストールが事前に必要になります。
 
 現在、インストールされているか確認するには、以下のコードをターミナルで実行しましょう。
+
 ```
-node -v
-npm -v
+$ node -v
+$ npm -v
 ```
 
 結果、バージョンの情報が表示されればインストールされていますので、次の手順に進めます。  
 まだインストールされていない場合は、あらかじめインストールする必要があります。 
+
 ***
+
 ### 2.1_node.jsのインストール
+
 ***
+
 node.js公式のページからインストールしましょう。  
 [node.js公式](https://nodejs.org/ja/)  
 
@@ -68,19 +73,28 @@ sudo npm install -g npm
 ## 3.0_Next.jsをインストール
 ***
 以下のコマンドを実行します。
+今回は、「example」と言うデフォルトのテンプレートを使用します。
 
 ```
-npx create-next-app . --use-npm
+$ npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
 ```
-成功したら、以下のコマンドを実行して、サーバーを起動します。
+
+成功したら、新しく作成された、`nextjs-blog`と言うディレクトリに移動します。
 
 ```
-npm run dev
+$ cd nextjs-blog
+```
+
+ディレクトリを移動したら、
+以下のコマンドを実行して、サーバーを起動します。
+
+```
+$ npm run dev
 ```
 ローカルのURL``(http://localhost:3000)``がターミナルに表示されるので、アクセスします。  
 以下の画面が表示されればインストールが成功です。
 ***
-![](../../img/13_nextjs02.png)
+![nextjs](../../img/13_nextjs02.png)
 ***
 次回は具体的に画面の編集方法と、cssの強力なツールである``Tailwind.css``を記録したい思います。  
 お疲れ様でした。  
