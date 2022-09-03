@@ -45,9 +45,9 @@ tags:
 ちなみに``cd``は``Change Directory(階層の変更)``という意味です。
 
 ```
-npx create-next-app my-project  
-↓
-cd my-project
+$ npx create-next-app my-project  
+    ↓
+$ cd my-project
 ```
 
 ***
@@ -58,12 +58,12 @@ cd my-project
 以下のコマンドで、パッケージをまるっとインストールします。
 
 ```
-npm install -D tailwindcss postcss autoprefixer
+$ npm install -D tailwindcss postcss autoprefixer
 ```
 
 次に、設定ファイルを作成します。
 ```
-npx tailwindcss init -p
+$ npx tailwindcss init -p
 ```
 ***
 
@@ -130,7 +130,7 @@ export default function Home() {
 ***
 設定を反映させて、以下のコマンドでサーバーを立ち上げましょう。
 ```
-npm run dev
+$ npm run dev
 ```
 ターミナル上にローカルのURLが表示されるはずなので、アクセスします。  
 ``Hello world``が表示されれば成功です。
