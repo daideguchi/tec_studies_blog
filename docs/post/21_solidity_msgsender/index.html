@@ -4,20 +4,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tags - 人生を変えるプログラミング_web3編</title>
+	<title>【solidity】msg.senderについて | コンストラクター内で定義 - 人生を変えるプログラミング_web3編</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="Tags" />
-<meta property="og:description" content="公務員がプログラミングを学び、自立していくストーリー" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://daideguchi.github.io/tec_studies_blog/tags/" />
+		<meta property="og:title" content="【solidity】msg.senderについて | コンストラクター内で定義" />
+<meta property="og:description" content="よくコンストラクタで定義される大切な概念、msg.senderについて学んだ記録" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://daideguchi.github.io/tec_studies_blog/post/21_solidity_msgsender/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-09-14T21:05:27+09:00" />
+<meta property="article:modified_time" content="2022-09-14T21:05:27+09:00" />
 
 
-		<meta itemprop="name" content="Tags">
-<meta itemprop="description" content="公務員がプログラミングを学び、自立していくストーリー">
+		<meta itemprop="name" content="【solidity】msg.senderについて | コンストラクター内で定義">
+<meta itemprop="description" content="よくコンストラクタで定義される大切な概念、msg.senderについて学んだ記録"><meta itemprop="datePublished" content="2022-09-14T21:05:27+09:00" />
+<meta itemprop="dateModified" content="2022-09-14T21:05:27+09:00" />
+<meta itemprop="wordCount" content="29">
+<meta itemprop="keywords" content="プログラミング,solidity," />
 		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="公務員がプログラミングを学び、自立していくストーリー"/>
+<meta name="twitter:title" content="【solidity】msg.senderについて | コンストラクター内で定義"/>
+<meta name="twitter:description" content="よくコンストラクタで定義される大切な概念、msg.senderについて学んだ記録"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -26,7 +31,6 @@
 
 	<link rel="stylesheet" href="/tec_studies_blog/css/style.css">
 	
-	<link rel="alternate" type="application/rss+xml" href="/tec_studies_blog/tags/index.xml" title="人生を変えるプログラミング_web3編">
 
 	<link rel="shortcut icon" href="/tec_studies_blog/favicon.ico">
 		
@@ -90,170 +94,83 @@ if (!doNotTrack) {
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main list" role="main">
-	<header class="main__header">
-		<h1 class="main__title">Tags</h1>
-	</header><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/solidity/" rel="bookmark">
-			solidity
-			</a>
-		</h2>
-		<div class="list__meta meta">
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">【solidity】msg.senderについて | コンストラクター内で定義</h1>
+			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-09-14T21:05:27&#43;09:00">2022-09-14</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-09-14T21:05:27&#43;09:00">2022-09-14</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/" rel="category">学習アウトプット</a>, <a class="meta__link" href="/tec_studies_blog/categories/solidity/" rel="category">solidity</a>
+	</span>
+</div></div>
+		</header>
 		
+<div class="post__toc toc">
+	<div class="toc__title">目次</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#10_コンストラクタとは">1.0_コンストラクタとは</a></li>
+    <li><a href="#20_具体的なコーディング">2.0_具体的なコーディング</a></li>
+  </ul>
+</nav>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="bookmark">
-			プログラミング
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-09-14T21:05:27&#43;09:00">2022-09-14</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/ethereum/" rel="bookmark">
-			ethereum
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-21T18:34:46&#43;09:00">2022-08-21</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3/" rel="bookmark">
-			ブロックチェーン
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-21T18:34:46&#43;09:00">2022-08-21</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/tailwind/" rel="bookmark">
-			tailwind
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-08T22:54:19&#43;09:00">2022-08-08</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/" rel="bookmark">
-			フロントエンド
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-08T22:54:19&#43;09:00">2022-08-08</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/next.js/" rel="bookmark">
-			Next.js
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-08T21:32:06&#43;09:00">2022-08-08</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/django/" rel="bookmark">
-			Django
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-07T22:06:47&#43;09:00">2022-08-07</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/python/" rel="bookmark">
-			Python
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-07T22:06:47&#43;09:00">2022-08-07</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/tags/%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/" rel="bookmark">
-			スケジュール
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-05T22:29:20&#43;09:00">2022-08-05</time></div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article>
+</div><div class="content post__content clearfix">
+			<p>よくコンストラクタで定義される大切な概念、<code>msg.sender</code>について学んだ記録</p>
+<p><img src="../../img/18_solidity_logo.png" alt="solidity_logo"></p>
+<hr>
+<h2 id="10_コンストラクタとは">1.0_コンストラクタとは</h2>
+<hr>
+<p>コンストラクタとは、スマートコントラクトをデプロイしたときに一度だけ自動的に呼び出される関数です。</p>
+<p>コンストラクトは構造体のような意味、箱のようなイメージで大丈夫かと思います。</p>
+<p>このコンストラクタの中に、<code>msg.sender</code>など、いろいろな情報をあらかじめ格納する型を作ります。</p>
+<p>この、コンストラクタの中では、<code>msg.sender</code>は<strong>スマートコントラクトをデプロイしたアドレス</strong>を示します。</p>
+<p>つまり、デプロイしたアドレス＝オーナーとなります。</p>
+<hr>
+<h2 id="20_具体的なコーディング">2.0_具体的なコーディング</h2>
+<hr>
+<p>例えば、何かしらの名簿を作成するときに、</p>
+<p>①名簿を作成した人＝オーナー<br>
+②名簿登録者数</p>
+<p>を管理する必要がありますので、以下のように、コンストラクターを記述します。</p>
+<div class="highlight light line-number copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>constructor<span style="color:#f92672">()</span> <span style="color:#66d9ef">public</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>	owner <span style="color:#f92672">=</span> msg<span style="color:#f92672">.</span><span style="color:#a6e22e">sender</span><span style="color:#f92672">;</span> <span style="color:#75715e">// コントラクトを公開したアドレスをオーナーに指定
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	numUser <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>        <span style="color:#75715e">// 登録件数の初期化する
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>さて、ここでは、まず名簿作成に必要な情報を定義しています。</p>
+<p>次回以降は、具体的に名簿を作成するメソッドをより深掘りします。</p>
+<p>一般的なDBとは概念がかなり異なるので、難しくなりますが、一緒にがんばりましょう。</p>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="tag">プログラミング</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tec_studies_blog/tags/solidity/" rel="tag">solidity</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
 </main>
 
-<div class="pagination">
-	<span class="pagination__item pagination__item--current">1/2</span>
-	<a class="pagination__item pagination__item--next btn" href="/tec_studies_blog/tags/page/2/">»</a>
-</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/tec_studies_blog/post/20_solidity_visibilyty/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;前の投稿</span>
+			<p class="pager__title">【solidity】4つのvisibilityと呼ばれるアクセス修飾子（権限）について</p>
+		</a>
+	</div>
+</nav>
+
 
 			</div>
-			
-<aside class="sidebar"><div class="widget-search widget">
+			<aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
 		<label>
 			<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
@@ -389,5 +306,7 @@ if (!doNotTrack) {
 </footer>
 	</div>
 <script async defer src="/tec_studies_blog/js/menu.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>
