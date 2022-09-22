@@ -6,7 +6,16 @@
     <description>Recent content in フロントエンド on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 08 Aug 2022 22:54:19 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 18:35:17 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【next.js】HTMLの記法の間違いで出現するエラーを解消した話</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/23_nextjs_error1/</link>
+      <pubDate>Thu, 22 Sep 2022 18:35:17 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/23_nextjs_error1/</guid>
+      <description>&lt;p&gt;タイポが原因で出現したエラー&lt;code&gt;Hydration failed because the initial UI does not match what was rendered on the server.&lt;/code&gt;を解消した記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【Tailwind】簡単にcssのコーディングができるツール</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/14_tailwindcss/</link>
