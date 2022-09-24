@@ -6,7 +6,16 @@
     <description>Recent content in プログラミング on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 22 Sep 2022 18:35:17 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 18:52:44 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【solidity】アクセスの制限をする修飾子modifierについて</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/24_solidity_modifire/</link>
+      <pubDate>Fri, 23 Sep 2022 18:52:44 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/24_solidity_modifire/</guid>
+      <description>&lt;p&gt;例えばオーナーのみ実行したいときに処理のアクセス制限をする&lt;code&gt;modifier&lt;/code&gt;についての記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【next.js】HTMLの記法の間違いで出現するエラーを解消した話</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/23_nextjs_error1/</link>

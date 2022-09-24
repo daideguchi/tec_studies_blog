@@ -6,14 +6,14 @@
     <description>Recent content in ビジネス系 on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 25 Aug 2022 22:12:20 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 18:52:44 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/categories/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【solidity】最初の第一歩。contractを生成する</title>
-      <link>https://daideguchi.github.io/tec_studies_blog/post/19_contract/</link>
-      <pubDate>Thu, 25 Aug 2022 22:12:20 +0900</pubDate>
+      <title>【solidity】アクセスの制限をする修飾子modifierについて</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/24_solidity_modifire/</link>
+      <pubDate>Fri, 23 Sep 2022 18:52:44 +0900</pubDate>
       
-      <guid>https://daideguchi.github.io/tec_studies_blog/post/19_contract/</guid>
-      <description>&lt;p&gt;&lt;code&gt;solidity&lt;/code&gt;でスマートコントラクトを実装するための第一歩目&lt;code&gt;contract&lt;/code&gt;の記録&lt;/p&gt;</description>
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/24_solidity_modifire/</guid>
+      <description>&lt;p&gt;例えばオーナーのみ実行したいときに処理のアクセス制限をする&lt;code&gt;modifier&lt;/code&gt;についての記録&lt;/p&gt;</description>
     </item>
     
   </channel>
