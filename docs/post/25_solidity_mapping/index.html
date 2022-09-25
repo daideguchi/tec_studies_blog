@@ -4,20 +4,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>バックエンド - 人生を変えるプログラミング_web3編</title>
+	<title>【solidity】配列のようなイメージのmappingの定義について - 人生を変えるプログラミング_web3編</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="バックエンド" />
-<meta property="og:description" content="公務員がプログラミングを学び、自立していくストーリー" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://daideguchi.github.io/tec_studies_blog/categories/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/" />
+		<meta property="og:title" content="【solidity】配列のようなイメージのmappingの定義について" />
+<meta property="og:description" content="配列[]のようなイメージのmappingのイメージを学習した記録" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://daideguchi.github.io/tec_studies_blog/post/25_solidity_mapping/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-09-25T16:19:40+09:00" />
+<meta property="article:modified_time" content="2022-09-25T16:19:40+09:00" />
 
 
-		<meta itemprop="name" content="バックエンド">
-<meta itemprop="description" content="公務員がプログラミングを学び、自立していくストーリー">
+		<meta itemprop="name" content="【solidity】配列のようなイメージのmappingの定義について">
+<meta itemprop="description" content="配列[]のようなイメージのmappingのイメージを学習した記録"><meta itemprop="datePublished" content="2022-09-25T16:19:40+09:00" />
+<meta itemprop="dateModified" content="2022-09-25T16:19:40+09:00" />
+<meta itemprop="wordCount" content="73">
+<meta itemprop="keywords" content="プログラミング,solidity," />
 		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="バックエンド"/>
-<meta name="twitter:description" content="公務員がプログラミングを学び、自立していくストーリー"/>
+<meta name="twitter:title" content="【solidity】配列のようなイメージのmappingの定義について"/>
+<meta name="twitter:description" content="配列[]のようなイメージのmappingのイメージを学習した記録"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -26,7 +31,6 @@
 
 	<link rel="stylesheet" href="/tec_studies_blog/css/style.css">
 	
-	<link rel="alternate" type="application/rss+xml" href="/tec_studies_blog/categories/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/index.xml" title="人生を変えるプログラミング_web3編">
 
 	<link rel="shortcut icon" href="/tec_studies_blog/favicon.ico">
 		
@@ -90,33 +94,125 @@ if (!doNotTrack) {
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main list" role="main">
-	<header class="main__header">
-		<h1 class="main__title">バックエンド</h1>
-	</header><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/tec_studies_blog/post/12_django_01/" rel="bookmark">
-			【Django】Pythonフレームワークの環境構築とインストール
-			</a>
-		</h2>
-		<div class="list__meta meta">
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">【solidity】配列のようなイメージのmappingの定義について</h1>
+			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-08-07T22:06:47&#43;09:00">2022-08-07</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/" rel="category">学習アウトプット</a>, <a class="meta__link" href="/tec_studies_blog/categories/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/" rel="category">バックエンド</a>, <a class="meta__link" href="/tec_studies_blog/categories/python/" rel="category">Python</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-09-25T16:19:40&#43;09:00">2022-09-25</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/tec_studies_blog/categories/%E5%AD%A6%E7%BF%92%E3%82%A2%E3%82%A6%E3%83%88%E3%83%97%E3%83%83%E3%83%88/" rel="category">学習アウトプット</a>, <a class="meta__link" href="/tec_studies_blog/categories/solidity/" rel="category">solidity</a>
 	</span>
 </div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		<p>今日は、Pythonのフレームワークである<code>Django</code>の環境構築の記録を残します。</p>
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">目次</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#10_mappingの使い方">1.0_mappingの使い方</a></li>
+    <li><a href="#20_実際に使ってみる">2.0_実際に使ってみる</a></li>
+  </ul>
+</nav>
 	</div>
-</article>
+</div><div class="content post__content clearfix">
+			<p>配列[]のようなイメージの<code>mapping</code>のイメージを学習した記録</p>
+<hr>
+<h2 id="10_mappingの使い方">1.0_mappingの使い方</h2>
+<hr>
+<p>mappingは簡単にいうと、配列のような仕組みの構文で、「key」と「value」を定義するような概念です。
+例えば、名簿管理の際に、出席番号（key）と名前・学年(value)のように、出席番号順に情報を管理するイメージをするとわかりやすいです。</p>
+<p><a href="https://solidity-jp.readthedocs.io/ja/latest/types.html#mapping-types">solidity公式ドキュメント_mapping</a></p>
+<p>基本的な構文は以下のとおりです。</p>
+<pre tabindex="0"><code>  mapping(key =&gt; value) public ステート変数名
+</code></pre><hr>
+<h2 id="20_実際に使ってみる">2.0_実際に使ってみる</h2>
+<hr>
+<p>以下の構文は、アカウントの管理を想定して記述しています。</p>
+<p>まずは、struct（構造体）に①名前と②メールアドレスを「userinfo」として格納します。</p>
+<p>さらに、<code>mapping</code>を使い、userinfoをaccountsという配列に入れていくようなイメージです。</p>
+<p>ここでは、keyを登録した順番。uintで数値です。</p>
+<p>valueはstructに格納されている2つの情報を格納します。</p>
+<div class="highlight light line-number copy"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//アカウントの情報（名簿）
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>struct userinfo <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>	string name<span style="color:#f92672">;</span>  <span style="color:#75715e">// 名前
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	string email<span style="color:#f92672">;</span> <span style="color:#75715e">// Emailアドレス
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//keyはuint(数値)、valueはuseinfo構造体の情報が入る。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//これらの情報を変数accountsに格納している
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>mapping<span style="color:#f92672">(</span>uint <span style="color:#f92672">=&gt;</span> userinfo<span style="color:#f92672">)</span> <span style="color:#66d9ef">private</span> accounts<span style="color:#f92672">;</span>
+</span></span></code></pre></div><p>例えばaccountsに以下のような３人分のデータをあらかじめ登録してみます。</p>
+<pre tabindex="0"><code>
+accounts[0].name = &#34;aaaaa&#34;;
+accounts[0].email = &#34;aaaaa@com&#34;;
+accounts[1].name = &#34;bbbbb&#34;;
+accounts[1].email = &#34;bbbbb@com&#34;;
+accounts[2].name = &#34;ccccc&#34;;
+accounts[2].email = &#34;ccccc@com&#34;;
+</code></pre><p>結果は以下の表のように整理されます。</p>
+<table>
+<thead>
+<tr>
+<th><code>key</code></th>
+<th><code>値</code></th>
+<th><code>name</code></th>
+<th><code>email</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>accounts[0]</td>
+<td>aaaaa</td>
+<td>aaaaa@com</td>
+</tr>
+<tr>
+<td>1</td>
+<td>accounts[1]</td>
+<td>bbbbb</td>
+<td>bbbbb@com</td>
+</tr>
+<tr>
+<td>2</td>
+<td>accounts[2]</td>
+<td>ccccc</td>
+<td>ccccc@com</td>
+</tr>
+</tbody>
+</table>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tec_studies_blog/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="tag">プログラミング</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tec_studies_blog/tags/solidity/" rel="tag">solidity</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
 </main>
 
 
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/tec_studies_blog/post/24_solidity_modifire/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;前の投稿</span>
+			<p class="pager__title">【solidity】アクセスの制限をする修飾子modifierについて</p>
+		</a>
+	</div>
+</nav>
+
+
 			</div>
-			
-<aside class="sidebar"><div class="widget-search widget">
+			<aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
 		<label>
 			<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
@@ -252,5 +348,7 @@ if (!doNotTrack) {
 </footer>
 	</div>
 <script async defer src="/tec_studies_blog/js/menu.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>
