@@ -6,7 +6,16 @@
     <description>Recent content in solidity on 人生を変えるプログラミング_web3編</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 25 Sep 2022 16:19:40 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 22:47:23 +0900</lastBuildDate><atom:link href="https://daideguchi.github.io/tec_studies_blog/tags/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【solidity】ERC-20準拠のトークン発行やスマートコントラクトをより簡単にするライブラリ「OpenZeppelin」について</title>
+      <link>https://daideguchi.github.io/tec_studies_blog/post/26_solidity_openzeppelin/</link>
+      <pubDate>Mon, 26 Sep 2022 22:47:23 +0900</pubDate>
+      
+      <guid>https://daideguchi.github.io/tec_studies_blog/post/26_solidity_openzeppelin/</guid>
+      <description>&lt;p&gt;&lt;code&gt;OpenZeppelin&lt;/code&gt;の導入部分についての記録&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【solidity】配列のようなイメージのmappingの定義について</title>
       <link>https://daideguchi.github.io/tec_studies_blog/post/25_solidity_mapping/</link>
