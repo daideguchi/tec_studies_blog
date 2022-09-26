@@ -55,6 +55,12 @@ $ npm install @openzeppelin
 
 インストール後はpackage.jsonで確認すると良いと思います。
 
+***
+
+## 3.0_導入後の使い方
+
+***
+
 実際にOpenZeppelinを使用する場合は、以下のようにファイルをインポートして使用します。ここでは、２つのファイルをインポートしています。
 
 ```java Hello.java {.light .line-number .copy}
@@ -85,6 +91,7 @@ contract MemberNFT is ERC721 {
 
 ```
 
+***
 ***
 
 例えば、上記は`@openzeppelin/contracts/token/ERC721/ERC721.sol`をインポートしています。
@@ -164,6 +171,9 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
 
 ⇨②URIStorage.sol抜粋
 ```java Hello.java {.light .line-number .copy}
+pragma solidity ^0.8.0;
+
+import "../ERC721.sol";
 ・・・
 ・・・
 ・・・
@@ -182,7 +192,8 @@ NFTを作成する関数である`_mint`は、①の`ERC721.sol`に定義され�
 
 また、`_setTokenURI`は、②の`URIStorage.sol`に定義されています。
 
+これらをインポートすることによって、**一から定義する手間を大幅に省くことができる**ため、solidityを開発する上ではとても役に立ちます。
+
 ***
-これらをインポートすることによって、一から定義する手間を大幅に省くことができるため、solidityを開発する上ではとても役に立ちます。
 
 他にもhardhatやether.jsなど、さまざまなツールがありますので、便利なものはどんどん取り入れていきましょう。
