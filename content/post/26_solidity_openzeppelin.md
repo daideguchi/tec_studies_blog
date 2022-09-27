@@ -19,7 +19,7 @@ tags:
 
 ***
 
-![openzeppelin](static/img/26_open.webp)
+![openzeppelin](../../img/26_open.webp)
 
 結論、`OpenZeppelin`とは、solidityのライブラリです。Dappsなどを開発する際に役に立ちます。
 
