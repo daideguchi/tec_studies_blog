@@ -19,6 +19,8 @@ tags:
 
 ***
 
+![openzeppelin](static/img/26_open.webp)
+
 結論、`OpenZeppelin`とは、solidityのライブラリです。Dappsなどを開発する際に役に立ちます。
 
 さて、ブロックチェーン開発において、必ずと言ってもいいほど登場するのが「トークン」や「NFT」です。
